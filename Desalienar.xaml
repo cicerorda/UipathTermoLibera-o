@@ -6,7 +6,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>965,4709</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>965,4646</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>Desalienar_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="34">
@@ -90,13 +90,13 @@
       <x:Boolean x:Key="ShouldCollapseAll">False</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence DisplayName="Desalienar" sap:VirtualizedContainerService.HintSize="975,4644" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Desalienar" sap:VirtualizedContainerService.HintSize="975,4581" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <p:CVScope ContinueOnError="{x:Null}" DelayBefore="{x:Null}" Server="{x:Null}" CvMethod="ElementDetection, OCR" DesignTimeCacheId="892791a9-2617-4010-b683-719cb7a6af1f" DisplayName="CV Screen Scope 'IHWindowClass'" sap:VirtualizedContainerService.HintSize="933,4552" sap2010:WorkflowViewState.IdRef="CVScope_1" Version="V5">
+    <p:CVScope ContinueOnError="{x:Null}" DelayBefore="{x:Null}" Server="{x:Null}" CvMethod="ElementDetection, OCR" DesignTimeCacheId="892791a9-2617-4010-b683-719cb7a6af1f" DisplayName="CV Screen Scope 'IHWindowClass'" sap:VirtualizedContainerService.HintSize="933,4489" sap2010:WorkflowViewState.IdRef="CVScope_1" Version="V5">
       <p:CVScope.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
@@ -107,7 +107,7 @@
               <Variable x:TypeArguments="x:String" Name="MatriculaSistem" />
               <Variable x:TypeArguments="x:String" Name="MatriculaTermo" />
             </Sequence.Variables>
-            <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: Text 'Manutencao de Garantia' (530,144,144,15)&quot;]" DesignTimeCacheId="892791a9-2617-4010-b683-719cb7a6af1f" DesignTimeScaleFactor="1" DisplayName="CV Click - Text" sap:VirtualizedContainerService.HintSize="899,137" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_1" InformativeScreenshot="c203e57ae633015e1ed9d5090a4a7a51" KeyModifiers="None" MouseButton="BTN_LEFT" Version="V5">
+            <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: Text 'Manutencao de Garantia' (530,144,144,15)&quot;]" DesignTimeCacheId="892791a9-2617-4010-b683-719cb7a6af1f" DesignTimeScaleFactor="1" DisplayName="CV Click - Text" sap:VirtualizedContainerService.HintSize="899,136" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_1" InformativeScreenshot="c203e57ae633015e1ed9d5090a4a7a51" KeyModifiers="None" MouseButton="BTN_LEFT" Version="V5">
               <p:CvClickWithDescriptor.CursorPosition>
                 <ui:CursorPosition Position="Center">
                   <ui:CursorPosition.OffsetX>
@@ -136,7 +136,7 @@
                 </ui:Target>
               </p:CvClickWithDescriptor.Target>
             </p:CvClickWithDescriptor>
-            <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: Text 'Controle de Alienacao' (67,262,121,15)&quot;]" DesignTimeCacheId="0d335e35-7c3b-4b3f-8459-0aa21835aff3" DesignTimeScaleFactor="1" DisplayName="CV Click - Text" sap:VirtualizedContainerService.HintSize="899,137" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_2" InformativeScreenshot="bad91f2c7edef25a8fbb0d54be2c2519" KeyModifiers="None" MouseButton="BTN_LEFT" Version="V5">
+            <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: Text 'Controle de Alienacao' (67,262,121,15)&quot;]" DesignTimeCacheId="0d335e35-7c3b-4b3f-8459-0aa21835aff3" DesignTimeScaleFactor="1" DisplayName="CV Click - Text" sap:VirtualizedContainerService.HintSize="899,136" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_2" InformativeScreenshot="bad91f2c7edef25a8fbb0d54be2c2519" KeyModifiers="None" MouseButton="BTN_LEFT" Version="V5">
               <p:CvClickWithDescriptor.CursorPosition>
                 <ui:CursorPosition Position="Center">
                   <ui:CursorPosition.OffsetX>
@@ -165,7 +165,7 @@
                 </ui:Target>
               </p:CvClickWithDescriptor.Target>
             </p:CvClickWithDescriptor>
-            <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: RadioButton (263,287,16,16)&quot; +&#xA;&quot;Anchor: Text 'Desalienar' (280,288,53,11)&quot;]" DesignTimeCacheId="4d9c922f-d33e-4044-8403-794f8024c76f" DesignTimeScaleFactor="1" DisplayName="CV Click - RadioButton" sap:VirtualizedContainerService.HintSize="899,137" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_3" InformativeScreenshot="06c5966ccdcc01d801aa700b3db7dfe3" KeyModifiers="None" MouseButton="BTN_LEFT" Version="V5">
+            <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: RadioButton (263,287,16,16)&quot; +&#xA;&quot;Anchor: Text 'Desalienar' (280,288,53,11)&quot;]" DesignTimeCacheId="4d9c922f-d33e-4044-8403-794f8024c76f" DesignTimeScaleFactor="1" DisplayName="CV Click - RadioButton" sap:VirtualizedContainerService.HintSize="899,136" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_3" InformativeScreenshot="06c5966ccdcc01d801aa700b3db7dfe3" KeyModifiers="None" MouseButton="BTN_LEFT" Version="V5">
               <p:CvClickWithDescriptor.CursorPosition>
                 <ui:CursorPosition Position="Center">
                   <ui:CursorPosition.OffsetX>
@@ -199,7 +199,7 @@
                 </ui:Target>
               </p:CvClickWithDescriptor.Target>
             </p:CvClickWithDescriptor>
-            <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: Button (265,467,103,22)&quot; +&#xA;&quot;Anchor: Text 'Executar Acao..' (275,471,79,14)&quot;]" DesignTimeCacheId="4d9c922f-d33e-4044-8403-794f8024c76f" DesignTimeScaleFactor="1" DisplayName="CV Click - Button" sap:VirtualizedContainerService.HintSize="899,137" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_4" InformativeScreenshot="13c2074ac30d5161d37ac6eaa143bb92" KeyModifiers="None" MouseButton="BTN_LEFT" Version="V5">
+            <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: Button (265,467,103,22)&quot; +&#xA;&quot;Anchor: Text 'Executar Acao..' (275,471,79,14)&quot;]" DesignTimeCacheId="4d9c922f-d33e-4044-8403-794f8024c76f" DesignTimeScaleFactor="1" DisplayName="CV Click - Button" sap:VirtualizedContainerService.HintSize="899,136" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_4" InformativeScreenshot="13c2074ac30d5161d37ac6eaa143bb92" KeyModifiers="None" MouseButton="BTN_LEFT" Version="V5">
               <p:CvClickWithDescriptor.CursorPosition>
                 <ui:CursorPosition Position="Center">
                   <ui:CursorPosition.OffsetX>
@@ -233,7 +233,7 @@
                 </ui:Target>
               </p:CvClickWithDescriptor.Target>
             </p:CvClickWithDescriptor>
-            <p:CvTypeIntoWithDescriptor DeselectAfter="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" ClickBeforeTyping="True" Descriptor="[&quot;Target: InputBox (407,258,58,24)&quot; +&#xA;&quot;Anchor: Text 'Consorciado:' (263,264,66,11)&quot;]" DesignTimeCacheId="b41301e5-71f1-4a61-8933-8226367bfbfd" DesignTimeScaleFactor="1" DisplayName="CV Type Into - InputBox" EmptyField="True" sap:VirtualizedContainerService.HintSize="899,186" sap2010:WorkflowViewState.IdRef="CvTypeIntoWithDescriptor_1" InformativeScreenshot="911dcd729c9cbccbe8c7a3ed6a6c24fd" Text="[Grupo]" Version="V5">
+            <p:CvTypeIntoWithDescriptor DeselectAfter="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" ClickBeforeTyping="True" Descriptor="[&quot;Target: InputBox (407,258,58,24)&quot; +&#xA;&quot;Anchor: Text 'Consorciado:' (263,264,66,11)&quot;]" DesignTimeCacheId="b41301e5-71f1-4a61-8933-8226367bfbfd" DesignTimeScaleFactor="1" DisplayName="CV Type Into - InputBox" EmptyField="True" sap:VirtualizedContainerService.HintSize="899,184" sap2010:WorkflowViewState.IdRef="CvTypeIntoWithDescriptor_1" InformativeScreenshot="911dcd729c9cbccbe8c7a3ed6a6c24fd" Text="[Grupo]" Version="V5">
               <p:CvTypeIntoWithDescriptor.DesignTimeDescriptor>
                 <uc:CvDescriptor Id="f5f31af7-f511-4c6b-9ae7-4f550fa6dd53">
                   <uc:CvDescriptor.Anchors>
@@ -257,7 +257,7 @@
                 </ui:Target>
               </p:CvTypeIntoWithDescriptor.Target>
             </p:CvTypeIntoWithDescriptor>
-            <p:CvTypeIntoWithDescriptor DeselectAfter="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" ClickBeforeTyping="True" Descriptor="[&quot;Target: InputBox (472,258,43,25)&quot; +&#xA;&quot;Anchor: Text 'Consorciado:' (263,264,66,11)&quot; +&#xA;&quot;Anchor: Text 'Identificacao do Consorciado:' (264,230,163,14)&quot;]" DesignTimeCacheId="b41301e5-71f1-4a61-8933-8226367bfbfd" DesignTimeScaleFactor="1" DisplayName="CV Type Into - InputBox" EmptyField="True" sap:VirtualizedContainerService.HintSize="899,186" sap2010:WorkflowViewState.IdRef="CvTypeIntoWithDescriptor_2" InformativeScreenshot="24a938dde5862402acf2087e81e4d338" Text="[Cota]" Version="V5">
+            <p:CvTypeIntoWithDescriptor DeselectAfter="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" ClickBeforeTyping="True" Descriptor="[&quot;Target: InputBox (472,258,43,25)&quot; +&#xA;&quot;Anchor: Text 'Consorciado:' (263,264,66,11)&quot; +&#xA;&quot;Anchor: Text 'Identificacao do Consorciado:' (264,230,163,14)&quot;]" DesignTimeCacheId="b41301e5-71f1-4a61-8933-8226367bfbfd" DesignTimeScaleFactor="1" DisplayName="CV Type Into - InputBox" EmptyField="True" sap:VirtualizedContainerService.HintSize="899,184" sap2010:WorkflowViewState.IdRef="CvTypeIntoWithDescriptor_2" InformativeScreenshot="24a938dde5862402acf2087e81e4d338" Text="[Cota]" Version="V5">
               <p:CvTypeIntoWithDescriptor.DesignTimeDescriptor>
                 <uc:CvDescriptor Id="05b368b3-f7ac-485f-9249-334a3b26a839">
                   <uc:CvDescriptor.Anchors>
@@ -282,7 +282,7 @@
                 </ui:Target>
               </p:CvTypeIntoWithDescriptor.Target>
             </p:CvTypeIntoWithDescriptor>
-            <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: Button (410,310,81,23)&quot; +&#xA;&quot;Anchor: Text 'Localizar...' (425,315,53,11)&quot;]" DesignTimeCacheId="ecd88b97-5604-475f-a997-206c81133c27" DesignTimeScaleFactor="1" DisplayName="CV Click - Button" sap:VirtualizedContainerService.HintSize="899,137" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_5" InformativeScreenshot="aaa042cbb7a34c5019a1fa12b4323658" KeyModifiers="None" MouseButton="BTN_LEFT" Version="V5">
+            <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: Button (410,310,81,23)&quot; +&#xA;&quot;Anchor: Text 'Localizar...' (425,315,53,11)&quot;]" DesignTimeCacheId="ecd88b97-5604-475f-a997-206c81133c27" DesignTimeScaleFactor="1" DisplayName="CV Click - Button" sap:VirtualizedContainerService.HintSize="899,136" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_5" InformativeScreenshot="aaa042cbb7a34c5019a1fa12b4323658" KeyModifiers="None" MouseButton="BTN_LEFT" Version="V5">
               <p:CvClickWithDescriptor.CursorPosition>
                 <ui:CursorPosition Position="Center">
                   <ui:CursorPosition.OffsetX>
@@ -316,7 +316,7 @@
                 </ui:Target>
               </p:CvClickWithDescriptor.Target>
             </p:CvClickWithDescriptor>
-            <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: Button (291,435,103,22)&quot; +&#xA;&quot;Anchor: Text 'Executar Acao...' (302,440,80,13)&quot;]" DesignTimeCacheId="5925a6d2-813c-475b-ab89-70924f9d4dc2" DesignTimeScaleFactor="1" DisplayName="CV Click - Button" sap:VirtualizedContainerService.HintSize="899,137" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_6" InformativeScreenshot="eb3e2ec47b1cf6dd0efa47e39d9c5a62" KeyModifiers="None" MouseButton="BTN_LEFT" Version="V5">
+            <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: Button (291,435,103,22)&quot; +&#xA;&quot;Anchor: Text 'Executar Acao...' (302,440,80,13)&quot;]" DesignTimeCacheId="5925a6d2-813c-475b-ab89-70924f9d4dc2" DesignTimeScaleFactor="1" DisplayName="CV Click - Button" sap:VirtualizedContainerService.HintSize="899,136" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_6" InformativeScreenshot="eb3e2ec47b1cf6dd0efa47e39d9c5a62" KeyModifiers="None" MouseButton="BTN_LEFT" Version="V5">
               <p:CvClickWithDescriptor.CursorPosition>
                 <ui:CursorPosition Position="Center">
                   <ui:CursorPosition.OffsetX>
@@ -350,7 +350,7 @@
                 </ui:Target>
               </p:CvClickWithDescriptor.Target>
             </p:CvClickWithDescriptor>
-            <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: Icon (475,341,20,20)&quot; +&#xA;&quot;Anchor: Text 'Opcao de Compra:' (288,345,91,14)&quot;]" DesignTimeCacheId="e2311983-9b50-4965-b864-de29c2f5d847" DesignTimeScaleFactor="1" DisplayName="CV Click - Icon" sap:VirtualizedContainerService.HintSize="899,137" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_7" InformativeScreenshot="9194abaf80eeff71d1ca686f84da18a3" KeyModifiers="None" MouseButton="BTN_LEFT" Version="V5">
+            <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: Icon (475,341,20,20)&quot; +&#xA;&quot;Anchor: Text 'Opcao de Compra:' (288,345,91,14)&quot;]" DesignTimeCacheId="e2311983-9b50-4965-b864-de29c2f5d847" DesignTimeScaleFactor="1" DisplayName="CV Click - Icon" sap:VirtualizedContainerService.HintSize="899,136" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_7" InformativeScreenshot="9194abaf80eeff71d1ca686f84da18a3" KeyModifiers="None" MouseButton="BTN_LEFT" Version="V5">
               <p:CvClickWithDescriptor.CursorPosition>
                 <ui:CursorPosition Position="Center">
                   <ui:CursorPosition.OffsetX>
@@ -384,7 +384,7 @@
                 </ui:Target>
               </p:CvClickWithDescriptor.Target>
             </p:CvClickWithDescriptor>
-            <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: Button (823,555,60,22)&quot; +&#xA;&quot;Anchor: Text 'Confirma' (830,560,45,11)&quot;]" DesignTimeCacheId="27daed37-24c0-4a0d-aa3f-2911014ff4e3" DesignTimeScaleFactor="1" DisplayName="CV Click - Button" sap:VirtualizedContainerService.HintSize="899,137" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_8" InformativeScreenshot="6c4f07f8a47b792f05ff33dd89fdef29" KeyModifiers="None" MouseButton="BTN_LEFT" Version="V5">
+            <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: Button (823,555,60,22)&quot; +&#xD;&#xA;&quot;Anchor: Text 'Confirma' (830,560,45,11)&quot;]" DesignTimeCacheId="27daed37-24c0-4a0d-aa3f-2911014ff4e3" DesignTimeScaleFactor="1" DisplayName="CV Click - Button" sap:VirtualizedContainerService.HintSize="899,136" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_8" InformativeScreenshot="15b88f4c2e0a20d52a7f90c710efe37a" KeyModifiers="None" MouseButton="BTN_LEFT" Version="V5">
               <p:CvClickWithDescriptor.CursorPosition>
                 <ui:CursorPosition Position="Center">
                   <ui:CursorPosition.OffsetX>
@@ -396,7 +396,7 @@
                 </ui:CursorPosition>
               </p:CvClickWithDescriptor.CursorPosition>
               <p:CvClickWithDescriptor.DesignTimeDescriptor>
-                <uc:CvDescriptor Id="ddbe3cd8-5c65-4c36-8b9a-2bf1511806f4">
+                <uc:CvDescriptor Id="0cd55614-4511-475e-a34a-3a2f45e49e55">
                   <uc:CvDescriptor.Anchors>
                     <x:Array Type="uc:CvElementDescriptor">
                       <uc:CvElementDescriptor CellExtraInfo="{x:Null}" DesignTimeArea="830, 560, 45, 11" ElementType="Text" Text="Confirma" />
@@ -418,7 +418,7 @@
                 </ui:Target>
               </p:CvClickWithDescriptor.Target>
             </p:CvClickWithDescriptor>
-            <p:CvGetTextWithDescriptor ContinueOnError="True" Descriptor="[&quot;Target: AnyText (931,539,26,11)&quot; +&#xD;&#xA;&quot;Anchor: Text 'Matricula:' (873,539,47,12)&quot;]" DesignTimeCacheId="4036e7f0-971b-4056-81b2-af4e21651606" DesignTimeScaleFactor="1" DisplayName="CV Get Text - Any Text" sap:VirtualizedContainerService.HintSize="899,168" sap2010:WorkflowViewState.IdRef="CvGetTextWithDescriptor_1" InformativeScreenshot="a8b235170630a38aee5fc412282bd35c" RefreshBefore="True" Result="[MatriculaSistem]" TimeoutMS="10000" Version="V5">
+            <p:CvGetTextWithDescriptor ContinueOnError="True" Descriptor="[&quot;Target: AnyText (931,539,26,11)&quot; +&#xA;&quot;Anchor: Text 'Matricula:' (873,539,47,12)&quot;]" DesignTimeCacheId="4036e7f0-971b-4056-81b2-af4e21651606" DesignTimeScaleFactor="1" DisplayName="CV Get Text - Any Text" sap:VirtualizedContainerService.HintSize="899,166" sap2010:WorkflowViewState.IdRef="CvGetTextWithDescriptor_1" InformativeScreenshot="a8b235170630a38aee5fc412282bd35c" RefreshBefore="True" Result="[MatriculaSistem]" TimeoutMS="10000" Version="V5">
               <p:CvGetTextWithDescriptor.DesignTimeDescriptor>
                 <uc:CvDescriptor Id="d684750f-4107-44c4-bfbb-d0f34f3e2645">
                   <uc:CvDescriptor.Anchors>
@@ -432,14 +432,14 @@
                 </uc:CvDescriptor>
               </p:CvGetTextWithDescriptor.DesignTimeDescriptor>
             </p:CvGetTextWithDescriptor>
-            <Sequence sap2010:Annotation.AnnotationText="Conferir numero da matricula" sap:VirtualizedContainerService.HintSize="899,1409" sap2010:WorkflowViewState.IdRef="Sequence_6">
+            <Sequence sap2010:Annotation.AnnotationText="Conferir numero da matricula" sap:VirtualizedContainerService.HintSize="899,1400" sap2010:WorkflowViewState.IdRef="Sequence_6">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                   <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: Icon (1308,132,31,27)&quot;]" DesignTimeCacheId="4036e7f0-971b-4056-81b2-af4e21651606" DesignTimeScaleFactor="1" DisplayName="CV Click - Icon" sap:VirtualizedContainerService.HintSize="334,137" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_9" InformativeScreenshot="5eb36d8c9917a99c95e657831acb34ea" KeyModifiers="None" MouseButton="BTN_LEFT" Version="V5">
+              <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: Icon (1308,132,31,27)&quot;]" DesignTimeCacheId="4036e7f0-971b-4056-81b2-af4e21651606" DesignTimeScaleFactor="1" DisplayName="CV Click - Icon" sap:VirtualizedContainerService.HintSize="334,136" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_9" InformativeScreenshot="5eb36d8c9917a99c95e657831acb34ea" KeyModifiers="None" MouseButton="BTN_LEFT" Version="V5">
                 <p:CvClickWithDescriptor.CursorPosition>
                   <ui:CursorPosition Position="Center">
                     <ui:CursorPosition.OffsetX>
@@ -468,7 +468,7 @@
                   </ui:Target>
                 </p:CvClickWithDescriptor.Target>
               </p:CvClickWithDescriptor>
-              <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_DOUBLE" Descriptor="[&quot;Target: Text '&quot;+Grupo+&quot;-&quot;+Cota+&quot;' (327,199,68,12)&quot; +&#xD;&#xA;&quot;Anchor: Text 'Name' (307,170,34,12)&quot;]" DesignTimeCacheId="23243a7a-d0fb-44bc-a3d1-25aa7ea08bd7" DesignTimeScaleFactor="1" DisplayName="CV Click - Text" sap:VirtualizedContainerService.HintSize="334,137" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_10" InformativeScreenshot="336552b8a0197555ddd92688e6f6b963" KeyModifiers="None" MouseButton="BTN_LEFT" Version="V5">
+              <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_DOUBLE" Descriptor="[&quot;Target: Text '&quot;+Grupo+&quot;-&quot;+Cota+&quot;' (327,199,68,12)&quot; +&#xA;&quot;Anchor: Text 'Name' (307,170,34,12)&quot;]" DesignTimeCacheId="23243a7a-d0fb-44bc-a3d1-25aa7ea08bd7" DesignTimeScaleFactor="1" DisplayName="CV Click - Text" sap:VirtualizedContainerService.HintSize="334,136" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_10" InformativeScreenshot="336552b8a0197555ddd92688e6f6b963" KeyModifiers="None" MouseButton="BTN_LEFT" Version="V5">
                 <p:CvClickWithDescriptor.CursorPosition>
                   <ui:CursorPosition Position="Center">
                     <ui:CursorPosition.OffsetX>
@@ -502,7 +502,7 @@
                   </ui:Target>
                 </p:CvClickWithDescriptor.Target>
               </p:CvClickWithDescriptor>
-              <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_DOUBLE" Descriptor="[&quot;Target: Text 'Termo de Liberacao - *- ass' (328,240,195,14)&quot;]" DesignTimeCacheId="efabf0a4-922d-4723-b622-4aed91b5241c" DesignTimeScaleFactor="1" DisplayName="CV Click - Text" sap:VirtualizedContainerService.HintSize="334,137" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_11" InformativeScreenshot="2222edb6596f862cf18726d4d9a50c55" KeyModifiers="None" MouseButton="BTN_LEFT" Version="V5">
+              <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_DOUBLE" Descriptor="[&quot;Target: Text 'Termo de Liberacao - *- ass' (328,240,195,14)&quot;]" DesignTimeCacheId="efabf0a4-922d-4723-b622-4aed91b5241c" DesignTimeScaleFactor="1" DisplayName="CV Click - Text" sap:VirtualizedContainerService.HintSize="334,136" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_11" InformativeScreenshot="2222edb6596f862cf18726d4d9a50c55" KeyModifiers="None" MouseButton="BTN_LEFT" Version="V5">
                 <p:CvClickWithDescriptor.CursorPosition>
                   <ui:CursorPosition Position="Center">
                     <ui:CursorPosition.OffsetX>
@@ -531,7 +531,7 @@
                   </ui:Target>
                 </p:CvClickWithDescriptor.Target>
               </p:CvClickWithDescriptor>
-              <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: Text 'PTB2' (1309,651,29,12) OffsetPoint: (-48,52)&quot;]" DesignTimeCacheId="94699ce7-3a57-4ea9-b911-881428b71e49" DesignTimeScaleFactor="1" DisplayName="CV Click - Text" sap:VirtualizedContainerService.HintSize="334,137" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_12" InformativeScreenshot="d985d8edbafe43fcb102ba28bf3521cd" KeyModifiers="None" MouseButton="BTN_LEFT" Version="V5">
+              <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: Text 'PTB2' (1309,651,29,12) OffsetPoint: (-48,52)&quot;]" DesignTimeCacheId="3b62c49f-0fee-4a0d-a18a-965adb146df5" DesignTimeScaleFactor="1" DisplayName="CV Click - Text" sap:VirtualizedContainerService.HintSize="334,136" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_12" InformativeScreenshot="0c9e6d883a4f19d79f49063bbbedda8c" KeyModifiers="None" MouseButton="BTN_LEFT" Version="V5">
                 <p:CvClickWithDescriptor.CursorPosition>
                   <ui:CursorPosition Position="Center">
                     <ui:CursorPosition.OffsetX>
@@ -560,7 +560,7 @@
                   </ui:Target>
                 </p:CvClickWithDescriptor.Target>
               </p:CvClickWithDescriptor>
-              <p:CvGetTextWithDescriptor Descriptor="[&quot;Target: AnyText (556,416,38,14)&quot; +&#xD;&#xA;&quot;Anchor: Text 'Numero(s) da(s) matricula(s):' (347,416,205,17)&quot;]" DesignTimeCacheId="4ec151ca-9ab9-4a60-bc95-cb08823617db" DesignTimeScaleFactor="1" DisplayName="CV Get Text - Any Text" sap:VirtualizedContainerService.HintSize="334,168" sap2010:WorkflowViewState.IdRef="CvGetTextWithDescriptor_2" InformativeScreenshot="68782c741f707666874a55108450d469" RefreshBefore="True" Result="[MatriculaTermo]" Version="V5">
+              <p:CvGetTextWithDescriptor Descriptor="[&quot;Target: AnyText (556,416,38,14)&quot; +&#xA;&quot;Anchor: Text 'Numero(s) da(s) matricula(s):' (347,416,205,17)&quot;]" DesignTimeCacheId="4ec151ca-9ab9-4a60-bc95-cb08823617db" DesignTimeScaleFactor="1" DisplayName="CV Get Text - Any Text" sap:VirtualizedContainerService.HintSize="334,166" sap2010:WorkflowViewState.IdRef="CvGetTextWithDescriptor_2" InformativeScreenshot="68782c741f707666874a55108450d469" RefreshBefore="True" Result="[MatriculaTermo]" Version="V5">
                 <p:CvGetTextWithDescriptor.DesignTimeDescriptor>
                   <uc:CvDescriptor Id="249d397a-e816-4cd5-bfbe-cf909a237cd4">
                     <uc:CvDescriptor.Anchors>
@@ -582,8 +582,8 @@
                   <InArgument x:TypeArguments="x:String">[String.Concat(MatriculaTermo.Where(AddressOf Char.IsDigit))]</InArgument>
                 </Assign.Value>
               </Assign>
-              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="334,93" sap2010:WorkflowViewState.IdRef="LogMessage_5" Level="Info" Message="[MatriculaTermo]" />
-              <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: CloseButton (1250,6,19,19)&quot; +&#xD;&#xA;&quot;Anchor: MaximizeButton (1205,6,19,19)&quot;]" DesignTimeCacheId="4ec151ca-9ab9-4a60-bc95-cb08823617db" DesignTimeScaleFactor="1" DisplayName="CV Click - CloseButton" sap:VirtualizedContainerService.HintSize="334,137" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_17" InformativeScreenshot="41f83629e1508d9c847281b16f7adf25" KeyModifiers="None" MouseButton="BTN_LEFT" Version="V5">
+              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="334,91" sap2010:WorkflowViewState.IdRef="LogMessage_5" Level="Info" Message="[MatriculaTermo]" />
+              <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: CloseButton (1250,6,19,19)&quot; +&#xA;&quot;Anchor: MaximizeButton (1205,6,19,19)&quot;]" DesignTimeCacheId="4ec151ca-9ab9-4a60-bc95-cb08823617db" DesignTimeScaleFactor="1" DisplayName="CV Click - CloseButton" sap:VirtualizedContainerService.HintSize="334,136" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_17" InformativeScreenshot="41f83629e1508d9c847281b16f7adf25" KeyModifiers="None" MouseButton="BTN_LEFT" Version="V5">
                 <p:CvClickWithDescriptor.CursorPosition>
                   <ui:CursorPosition Position="Center">
                     <ui:CursorPosition.OffsetX>
@@ -618,24 +618,24 @@
                 </p:CvClickWithDescriptor.Target>
               </p:CvClickWithDescriptor>
             </Sequence>
-            <If Condition="[MatriculaSistem = MatriculaTermo]" sap:VirtualizedContainerService.HintSize="899,908" sap2010:WorkflowViewState.IdRef="If_1">
+            <If Condition="[MatriculaSistem = MatriculaTermo]" sap:VirtualizedContainerService.HintSize="899,868" sap2010:WorkflowViewState.IdRef="If_1">
               <If.Then>
-                <Sequence sap:VirtualizedContainerService.HintSize="478,749" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                <Sequence sap:VirtualizedContainerService.HintSize="478,705" sap2010:WorkflowViewState.IdRef="Sequence_3">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="436,93" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Info" Message="[&quot;Número da Matricula no sistema é o mesmo que no termo.&quot;]" />
-                  <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="436,347" sap2010:WorkflowViewState.IdRef="CommentOut_2">
+                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="436,91" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Info" Message="[&quot;Número da Matricula no sistema é o mesmo que no termo.&quot;]" />
+                  <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="436,306" sap2010:WorkflowViewState.IdRef="CommentOut_2">
                     <ui:CommentOut.Body>
-                      <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="376,229" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                      <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="376,228" sap2010:WorkflowViewState.IdRef="Sequence_7">
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
-                        <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: Text 'Gravar' (873,684,38,12)&quot; +&#xD;&#xA;&quot;Anchor: Button (856,680,75,22)&quot;]" DesignTimeCacheId="4036e7f0-971b-4056-81b2-af4e21651606" DesignTimeScaleFactor="1" DisplayName="CV Click - Text" sap:VirtualizedContainerService.HintSize="334,137" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_13" InformativeScreenshot="a9dced6e0a72f53741a33b79abb63a2f" KeyModifiers="None" MouseButton="BTN_LEFT" Version="V5">
+                        <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: Text 'Gravar' (873,684,38,12)&quot; +&#xA;&quot;Anchor: Button (856,680,75,22)&quot;]" DesignTimeCacheId="4036e7f0-971b-4056-81b2-af4e21651606" DesignTimeScaleFactor="1" DisplayName="CV Click - Text" sap:VirtualizedContainerService.HintSize="334,136" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_13" InformativeScreenshot="a9dced6e0a72f53741a33b79abb63a2f" KeyModifiers="None" MouseButton="BTN_LEFT" Version="V5">
                           <p:CvClickWithDescriptor.CursorPosition>
                             <ui:CursorPosition Position="Center">
                               <ui:CursorPosition.OffsetX>
@@ -672,7 +672,7 @@
                       </Sequence>
                     </ui:CommentOut.Body>
                   </ui:CommentOut>
-                  <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: CloseButton (1013,135,18,17)&quot; +&#xD;&#xA;&quot;Anchor: Text 'Bens Imoveis - Desalienacao' (264,189,221,18)&quot;]" DesignTimeCacheId="4036e7f0-971b-4056-81b2-af4e21651606" DesignTimeScaleFactor="1" DisplayName="CV Click - CloseButton" sap:VirtualizedContainerService.HintSize="436,137" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_15" InformativeScreenshot="04021eec34ece490dee6293439d8080a" KeyModifiers="None" MouseButton="BTN_LEFT" Version="V5">
+                  <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: CloseButton (1013,135,18,17)&quot; +&#xA;&quot;Anchor: Text 'Bens Imoveis - Desalienacao' (264,189,221,18)&quot;]" DesignTimeCacheId="4036e7f0-971b-4056-81b2-af4e21651606" DesignTimeScaleFactor="1" DisplayName="CV Click - CloseButton" sap:VirtualizedContainerService.HintSize="436,136" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_15" InformativeScreenshot="04021eec34ece490dee6293439d8080a" KeyModifiers="None" MouseButton="BTN_LEFT" Version="V5">
                     <p:CvClickWithDescriptor.CursorPosition>
                       <ui:CursorPosition Position="Center">
                         <ui:CursorPosition.OffsetX>
@@ -709,14 +709,14 @@
                 </Sequence>
               </If.Then>
               <If.Else>
-                <Sequence sap:VirtualizedContainerService.HintSize="376,716" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                <Sequence sap:VirtualizedContainerService.HintSize="376,711" sap2010:WorkflowViewState.IdRef="Sequence_4">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="334,93" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Info" Message="[&quot;Número da Matricula no sistema é diferente do termo.&quot;]" />
-                  <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: Icon (125,131,19,18)&quot;]" DesignTimeCacheId="781f0ee7-4741-4782-9260-5af842362ee0" DesignTimeScaleFactor="1" DisplayName="CV Click - Icon" sap:VirtualizedContainerService.HintSize="334,137" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_18" InformativeScreenshot="39914c5ff5c25ecebb4f11625d48b636" KeyModifiers="None" MouseButton="BTN_LEFT" Version="V5">
+                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="334,91" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Info" Message="[&quot;Número da Matricula no sistema é diferente do termo.&quot;]" />
+                  <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: Icon (125,131,19,18)&quot;]" DesignTimeCacheId="781f0ee7-4741-4782-9260-5af842362ee0" DesignTimeScaleFactor="1" DisplayName="CV Click - Icon" sap:VirtualizedContainerService.HintSize="334,136" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_18" InformativeScreenshot="39914c5ff5c25ecebb4f11625d48b636" KeyModifiers="None" MouseButton="BTN_LEFT" Version="V5">
                     <p:CvClickWithDescriptor.CursorPosition>
                       <ui:CursorPosition Position="Center">
                         <ui:CursorPosition.OffsetX>
@@ -745,7 +745,7 @@
                       </ui:Target>
                     </p:CvClickWithDescriptor.Target>
                   </p:CvClickWithDescriptor>
-                  <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: MinimizeButton (1114,74,21,17)&quot; +&#xD;&#xA;&quot;Anchor: ArrowButton (1197,101,17,18)&quot;]" DesignTimeCacheId="eebde3b2-eba2-49f9-a468-5619d0f53c77" DesignTimeScaleFactor="1" DisplayName="CV Click - MinimizeButton" sap:VirtualizedContainerService.HintSize="334,137" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_19" InformativeScreenshot="6a473574b6023f1df0e999afc1458776" KeyModifiers="None" MouseButton="BTN_LEFT" Version="V5">
+                  <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: MinimizeButton (1114,74,21,17)&quot; +&#xA;&quot;Anchor: ArrowButton (1197,101,17,18)&quot;]" DesignTimeCacheId="eebde3b2-eba2-49f9-a468-5619d0f53c77" DesignTimeScaleFactor="1" DisplayName="CV Click - MinimizeButton" sap:VirtualizedContainerService.HintSize="334,136" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_19" InformativeScreenshot="6a473574b6023f1df0e999afc1458776" KeyModifiers="None" MouseButton="BTN_LEFT" Version="V5">
                     <p:CvClickWithDescriptor.CursorPosition>
                       <ui:CursorPosition Position="Center">
                         <ui:CursorPosition.OffsetX>
@@ -779,7 +779,7 @@
                       </ui:Target>
                     </p:CvClickWithDescriptor.Target>
                   </p:CvClickWithDescriptor>
-                  <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: CloseButton (1013,135,18,17)&quot; +&#xA;&quot;Anchor: Text 'Bens Imoveis - Desalienacao' (264,189,221,18)&quot;]" DesignTimeCacheId="4036e7f0-971b-4056-81b2-af4e21651606" DesignTimeScaleFactor="1" DisplayName="CV Click - CloseButton" sap:VirtualizedContainerService.HintSize="334,137" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_16" InformativeScreenshot="04021eec34ece490dee6293439d8080a" KeyModifiers="None" MouseButton="BTN_LEFT" Version="V5">
+                  <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: CloseButton (1013,135,18,17)&quot; +&#xA;&quot;Anchor: Text 'Bens Imoveis - Desalienacao' (264,189,221,18)&quot;]" DesignTimeCacheId="4036e7f0-971b-4056-81b2-af4e21651606" DesignTimeScaleFactor="1" DisplayName="CV Click - CloseButton" sap:VirtualizedContainerService.HintSize="334,136" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_16" InformativeScreenshot="04021eec34ece490dee6293439d8080a" KeyModifiers="None" MouseButton="BTN_LEFT" Version="V5">
                     <p:CvClickWithDescriptor.CursorPosition>
                       <ui:CursorPosition Position="Center">
                         <ui:CursorPosition.OffsetX>
@@ -825,7 +825,7 @@
       <p:CVScope.DesignTimeCacheContainer>
         <uc:CvCacheContainer>
           <uc:CvCacheContainer.Caches>
-            <scg:List x:TypeArguments="uc:CVCache" Capacity="28">
+            <scg:List x:TypeArguments="uc:CVCache" Capacity="15">
               <uc:CVCache DisplayName="Screen CV Click - 'Manutencao  (Main)" Id="892791a9-2617-4010-b683-719cb7a6af1f" InformativeScreenshot="ddaa951921bea307b9e67f175c3dbdaa" LogicalPosition="-2806, 0" OcrText="NewCon - X Nev CON Venda Grupo Cobranca Financeiro Contemplacao Credito Encerramento Contabilidade Sistema Correcao de Credito Concessao de Credito Controle de Aquisicao Manutencao de Garantia Programacao de Pagamento Relatorio Credito Escolha da Empresa Concessao de Credito v Empresa v Cadastro de apoio &gt; ADMINISTRADORA DE CONSORCIOS SICREDI LTDA v Analise de Credito Garantidores Ficha Cadastral Analise de Credito e Consulta Revisao da Analise de Credito Analise de Risco Avisos Analise de Risco - Santander Agenda Tipo de Garantidor Voce nao tem novos assuntos na Agendal Substituicao de Garantidor Informacoes sobre a conexao Integracao Dados Credito - Inclusao Manual Ultimo acesso : 19/07/2022 13:02:34 Acesso Atual: 19/07/2022 13:25:07 Senha expira em: 31/12/3000 Controle de Documentos v Liberacao de Credito Processo de Contemplacao Consulta de Agendado Check-List de Documento Documento Digitalizado - Consulta A) Aprovacao da Analise de Credito POR PTB2 13:38 19/07/2022" Position="-2806, 0" ScreenshotGuid="a6c7bb01-1d95-44b4-a7a2-094664fc3650" ServerVersion="1">
                 <uc:CVCache.CvAnchorRelations>
                   <scg:List x:TypeArguments="uc:AnchorRelationInfo" Capacity="0" />
@@ -4747,270 +4747,6 @@
                   </scg:List>
                 </uc:CVCache.OcrTexts>
               </uc:CVCache>
-              <uc:CVCache DisplayName="Screen CV Click - 'PTB2'" Id="94699ce7-3a57-4ea9-b911-881428b71e49" InformativeScreenshot="e2b8bc583154edc17d56082253c644cc" LogicalPosition="-2806, 0" OcrText="Termo de Liberacao - Arlei- assin X + _ X i File 01/sup_planejamento_controle/tecnica_produtos/CFP/2./3.%20Termo%20de%20Liberacao/4.%20AG%20ASSINATURAS/lote/Cl..t + ... 1 of 1 + AM T v v TERMO DE LIBERACAO E CANCELAMENTO DE REGISTRO DE ALIENACAO FIDUCIARIA Porto Alegre, 03 de Junho de 2022 Consorciado(a): ARLEI ULNHORST CPF: 058.186.289-90 Grupo: 070017 Cota: 0069 ADMINISTRADORA DE CONSORCIOS SICREDI LTDA, pessoa juridica de direito privado, inscrita no CNPJ sob 0 n¿ 07.808.907/0001-20, com sede na Av. Assis Brasil, n¿ 3940, Bloco D, 4° andar, na cidade de Porto Alegre - RS, neste ato representada por Maria Isabel Braga Abe Lopes, brasileira, casada, Economista, portadora da carteira de identidade n¿ 2076620851, inscrito no CPF sob n¿ 005.542.290-05, A) residente e domiciliada na cidade de Porto Alegre, na Rua Limoeiro, n¿ 135 POR apto 802 - Torre A, endereco eletronico maria_abe@sicredi.com.br, no final assinado e PTB2 identificada, considerando que houve 0 pagamento integral da divida, a 07:45 ADMINISTRADORA da plena quitacao, autoriza e requer 0 cancelamento da 21/07/2022 alienacao fiduciaria abaixo caracterizada, nos termos do art. 25 da Lei 9.514/97." Position="-2806, 0" ScreenshotGuid="a9d06db3-eb6f-4e07-b8b6-68d098098e26" ServerVersion="1">
-                <uc:CVCache.CvAnchorRelations>
-                  <scg:List x:TypeArguments="uc:AnchorRelationInfo" Capacity="0" />
-                </uc:CVCache.CvAnchorRelations>
-                <uc:CVCache.CvUiElements>
-                  <scg:List x:TypeArguments="uc:CvElementInfo" Capacity="128">
-                    <uc:CvElementInfo Category="Icon" Region="1102, 81, 20, 20" />
-                    <uc:CvElementInfo Category="Icon" Region="1061, 81, 23, 21" />
-                    <uc:CvElementInfo Category="Icon" Region="12, 80, 24, 21" />
-                    <uc:CvElementInfo Category="Button" Region="44, 0, 246, 32" />
-                    <uc:CvElementInfo Category="Icon" Region="827, 82, 22, 19" />
-                    <uc:CvElementInfo Category="Icon" Region="1308, 270, 30, 31" />
-                    <uc:CvElementInfo Category="Icon" Region="139, 81, 21, 20" />
-                    <uc:CvElementInfo Category="Icon" Region="1309, 224, 29, 30" />
-                    <uc:CvElementInfo Category="Icon" Region="1312, 48, 24, 23" />
-                    <uc:CvElementInfo Category="Icon" Region="681, 82, 22, 18" />
-                    <uc:CvElementInfo Category="Icon" Region="1230, 78, 23, 23" />
-                    <uc:CvElementInfo Category="Icon" Region="54, 5, 21, 21" />
-                    <uc:CvElementInfo Category="Icon" Region="1152, 40, 22, 22" />
-                    <uc:CvElementInfo Category="Icon" Region="104, 39, 22, 23" />
-                    <uc:CvElementInfo Category="Icon" Region="641, 80, 21, 22" />
-                    <uc:CvElementInfo Category="Icon" Region="729, 81, 22, 20" />
-                    <uc:CvElementInfo Category="Icon" Region="1107, 39, 22, 22" />
-                    <uc:CvElementInfo Category="Icon" Region="1056, 39, 24, 23" />
-                    <uc:CvElementInfo Category="Icon" Region="1309, 178, 30, 30" />
-                    <uc:CvElementInfo Category="Icon" Region="158, 39, 22, 22" />
-                    <uc:CvElementInfo Category="Icon" Region="1012, 79, 23, 22" />
-                    <uc:CvElementInfo Category="Icon" Region="945, 79, 22, 23" />
-                    <uc:CvElementInfo Category="Icon" Region="1143, 81, 21, 21" />
-                    <uc:CvElementInfo Category="Icon" Region="59, 39, 25, 23" />
-                    <uc:CvElementInfo Category="MaximizeButton" Region="1205, 6, 19, 19" />
-                    <uc:CvElementInfo Category="Icon" Region="1308, 133, 30, 26" />
-                    <uc:CvElementInfo Category="Icon" Region="1195, 37, 28, 28" />
-                    <uc:CvElementInfo Category="CloseButton" Region="262, 7, 17, 18" />
-                    <uc:CvElementInfo Category="Icon" Region="1190, 80, 22, 22" />
-                    <uc:CvElementInfo Category="Icon" Region="600, 79, 23, 23" />
-                    <uc:CvElementInfo Category="InputBox" Region="174, 34, 907, 33" />
-                    <uc:CvElementInfo Category="Icon" Region="876, 79, 22, 23" />
-                    <uc:CvElementInfo Category="Icon" Region="293, 5, 21, 21" />
-                    <uc:CvElementInfo Category="Icon" Region="15, 39, 24, 23" />
-                    <uc:CvElementInfo Category="MinimizeButton" Region="1158, 8, 19, 16" />
-                    <uc:CvElementInfo Category="Icon" Region="779, 80, 21, 21" />
-                    <uc:CvElementInfo Category="CloseButton" Region="1250, 6, 19, 19" />
-                    <uc:CvElementInfo Category="ArrowButton" Region="981, 82, 19, 19" />
-                    <uc:CvElementInfo Category="ArrowButton" Region="912, 83, 18, 17" />
-                    <uc:CvElementInfo Category="InputBox" Region="50, 73, 42, 34" />
-                    <uc:CvElementInfo Category="Icon" Region="1244, 43, 22, 16" />
-                    <uc:CvElementInfo Category="Icon" Region="13, 6, 20, 20" />
-                    <uc:CvElementInfo Category="Icon" Region="1311, 7, 26, 25" />
-                    <uc:CvElementInfo Category="Icon" Region="1310, 89, 28, 23" />
-                    <uc:CvElementInfo Category="ArrowButton" Region="1265, 70, 18, 19" />
-                    <uc:CvElementInfo Category="Icon" Region="559, 82, 24, 18" />
-                    <uc:CvElementInfo Category="Icon" Region="1290, 611, 22, 19" />
-                    <uc:CvElementInfo Category="Button" Confidence="Runtime" Region="0, 0, 47, 33" />
-                    <uc:CvElementInfo Category="Button" Confidence="Runtime" Region="1282, 170, 83, 48" />
-                    <uc:CvElementInfo Category="MinimizeButton" Confidence="Runtime" Region="558, 79, 26, 22" />
-                    <uc:CvElementInfo Category="Button" Confidence="Runtime" Region="1291, 612, 19, 18" />
-                    <uc:CvElementInfo Category="Button" Confidence="Runtime" Region="50, 74, 42, 33" />
-                    <uc:CvElementInfo Category="Icon" Confidence="Runtime" Region="1313, 610, 21, 19" />
-                    <uc:CvElementInfo Category="Icon" Confidence="Runtime" Region="64, 82, 15, 18" />
-                    <uc:CvElementInfo Category="Icon" Confidence="Runtime" Region="99, 81, 26, 19" />
-                    <uc:CvElementInfo Category="Icon" Confidence="Runtime" Region="56, 76, 30, 28" />
-                    <uc:CvElementInfo Category="Icon" Confidence="Runtime" Region="514, 607, 18, 16" />
-                    <uc:CvElementInfo Category="MaximizeButton" Confidence="Runtime" Region="5, 2, 35, 29" />
-                    <uc:CvElementInfo Category="ArrowButton" Confidence="Runtime" Region="559, 81, 25, 20" />
-                    <uc:CvElementInfo Category="ArrowButton" Confidence="Runtime" Region="1243, 43, 23, 15" />
-                    <uc:CvElementInfo Category="Button" Confidence="Runtime" Region="1194, 37, 29, 28" />
-                    <uc:CvElementInfo Category="Cell" Confidence="Runtime" Region="234, 668, 28, 25" />
-                    <uc:CvElementInfo Category="Cell" Confidence="Runtime" Region="234, 657, 31, 14" />
-                    <uc:CvElementInfo Category="Cell" Confidence="Runtime" Region="233, 675, 39, 23" />
-                    <uc:CvElementInfo Category="Cell" Confidence="Runtime" Region="1279, 214, 82, 49" />
-                    <uc:CvElementInfo Category="Cell" Confidence="Runtime" Region="235, 661, 27, 23" />
-                    <uc:CvElementInfo Category="Cell" Confidence="Runtime" Region="233, 683, 40, 23" />
-                    <uc:CvElementInfo Category="Cell" Confidence="Runtime" Region="234, 649, 31, 14" />
-                    <uc:CvElementInfo Category="Cell" Confidence="Runtime" Region="234, 640, 32, 15" />
-                    <uc:CvElementInfo Category="Cell" Confidence="Runtime" Region="235, 653, 22, 52" />
-                    <uc:CvElementInfo Category="Cell" Confidence="Runtime" Region="235, 631, 22, 53" />
-                    <uc:CvElementInfo Category="Cell" Confidence="Runtime" Region="233, 629, 37, 21" />
-                    <uc:CvElementInfo Category="Cell" Confidence="Runtime" Region="234, 698, 31, 28" />
-                    <uc:CvElementInfo Category="Cell" Confidence="Runtime" Region="235, 620, 26, 24" />
-                    <uc:CvElementInfo Category="Cell" Confidence="Runtime" Region="226, 670, 73, 29" />
-                    <uc:CvElementInfo Category="Cell" Confidence="Runtime" Region="235, 603, 22, 55" />
-                    <uc:CvElementInfo Category="Cell" Confidence="Runtime" Region="234, 709, 63, 18" />
-                    <uc:CvElementInfo Category="InputBox" Confidence="Runtime" Region="241, 124, 791, 604" />
-                    <uc:CvElementInfo Category="ArrowButton" Confidence="Runtime" Region="609, 667, 14, 15" />
-                  </scg:List>
-                </uc:CVCache.CvUiElements>
-                <uc:CVCache.OcrTexts>
-                  <scg:List x:TypeArguments="uc:OcrTextInfo" Capacity="256">
-                    <uc:OcrTextInfo Region="83, 9, 34, 12" Text="Termo" />
-                    <uc:OcrTextInfo Region="119, 9, 15, 12" Text="de" />
-                    <uc:OcrTextInfo Region="136, 9, 52, 15" Text="Liberacao" />
-                    <uc:OcrTextInfo Region="190, 11, 6, 10" Text="-" />
-                    <uc:OcrTextInfo Region="197, 9, 31, 12" Text="Arlei-" />
-                    <uc:OcrTextInfo Region="230, 10, 26, 11" Text="assin" />
-                    <uc:OcrTextInfo Region="264, 10, 12, 12" Text="X" />
-                    <uc:OcrTextInfo Region="295, 7, 17, 16" Text="+" />
-                    <uc:OcrTextInfo Region="1161, 6, 13, 13" Text="_" />
-                    <uc:OcrTextInfo Region="1253, 9, 14, 12" Text="X" />
-                    <uc:OcrTextInfo Region="166, 45, 5, 11" Text="i" />
-                    <uc:OcrTextInfo Region="185, 44, 23, 13" Text="File" />
-                    <uc:OcrTextInfo Region="255, 44, 813, 16" Text="01/sup_planejamento_controle/tecnica_produtos/CFP/2./3.%20Termo%20de%20Liberacao/4.%20AG%20ASSINATURAS/lote/Cl..t" />
-                    <uc:OcrTextInfo Region="1160, 49, 9, 8" Text="+" />
-                    <uc:OcrTextInfo Region="1246, 40, 16, 13" Text="..." />
-                    <uc:OcrTextInfo Region="68, 85, 7, 11" Text="1" />
-                    <uc:OcrTextInfo Region="101, 85, 13, 12" Text="of" />
-                    <uc:OcrTextInfo Region="115, 85, 7, 12" Text="1" />
-                    <uc:OcrTextInfo Region="603, 81, 17, 18" Text="+" />
-                    <uc:OcrTextInfo Region="781, 81, 17, 18" Text="AM" />
-                    <uc:OcrTextInfo Region="833, 85, 10, 11" Text="T" />
-                    <uc:OcrTextInfo Region="916, 87, 11, 8" Text="v" />
-                    <uc:OcrTextInfo Region="983, 87, 12, 8" Text="v" />
-                    <uc:OcrTextInfo Region="354, 236, 71, 17" Text="TERMO" />
-                    <uc:OcrTextInfo Region="428, 236, 28, 18" Text="DE" />
-                    <uc:OcrTextInfo Region="459, 233, 113, 23" Text="LIBERACAO" />
-                    <uc:OcrTextInfo Region="575, 236, 15, 18" Text="E" />
-                    <uc:OcrTextInfo Region="593, 236, 161, 17" Text="CANCELAMENTO" />
-                    <uc:OcrTextInfo Region="757, 236, 27, 17" Text="DE" />
-                    <uc:OcrTextInfo Region="787, 236, 100, 17" Text="REGISTRO" />
-                    <uc:OcrTextInfo Region="890, 236, 28, 18" Text="DE" />
-                    <uc:OcrTextInfo Region="523, 256, 115, 22" Text="ALIENACAO" />
-                    <uc:OcrTextInfo Region="641, 257, 109, 19" Text="FIDUCIARIA" />
-                    <uc:OcrTextInfo Region="697, 296, 37, 13" Text="Porto" />
-                    <uc:OcrTextInfo Region="735, 295, 49, 17" Text="Alegre," />
-                    <uc:OcrTextInfo Region="786, 295, 18, 14" Text="03" />
-                    <uc:OcrTextInfo Region="807, 296, 18, 13" Text="de" />
-                    <uc:OcrTextInfo Region="827, 295, 42, 14" Text="Junho" />
-                    <uc:OcrTextInfo Region="871, 296, 18, 13" Text="de" />
-                    <uc:OcrTextInfo Region="891, 295, 35, 14" Text="2022" />
-                    <uc:OcrTextInfo Region="349, 363, 104, 17" Text="Consorciado(a):" />
-                    <uc:OcrTextInfo Region="455, 363, 46, 14" Text="ARLEI" />
-                    <uc:OcrTextInfo Region="503, 363, 82, 14" Text="ULNHORST" />
-                    <uc:OcrTextInfo Region="348, 397, 34, 14" Text="CPF:" />
-                    <uc:OcrTextInfo Region="389, 397, 105, 14" Text="058.186.289-90" />
-                    <uc:OcrTextInfo Region="348, 432, 46, 16" Text="Grupo:" />
-                    <uc:OcrTextInfo Region="397, 431, 50, 14" Text="070017" />
-                    <uc:OcrTextInfo Region="348, 465, 37, 14" Text="Cota:" />
-                    <uc:OcrTextInfo Region="387, 465, 35, 14" Text="0069" />
-                    <uc:OcrTextInfo Region="347, 531, 139, 14" Text="ADMINISTRADORA" />
-                    <uc:OcrTextInfo Region="492, 531, 22, 14" Text="DE" />
-                    <uc:OcrTextInfo Region="520, 528, 102, 17" Text="CONSORCIOS" />
-                    <uc:OcrTextInfo Region="629, 531, 61, 14" Text="SICREDI" />
-                    <uc:OcrTextInfo Region="697, 531, 45, 16" Text="LTDA," />
-                    <uc:OcrTextInfo Region="749, 533, 48, 15" Text="pessoa" />
-                    <uc:OcrTextInfo Region="802, 531, 51, 17" Text="juridica" />
-                    <uc:OcrTextInfo Region="860, 531, 18, 14" Text="de" />
-                    <uc:OcrTextInfo Region="884, 531, 42, 14" Text="direito" />
-                    <uc:OcrTextInfo Region="348, 550, 54, 17" Text="privado," />
-                    <uc:OcrTextInfo Region="406, 550, 47, 14" Text="inscrita" />
-                    <uc:OcrTextInfo Region="457, 553, 18, 11" Text="no" />
-                    <uc:OcrTextInfo Region="479, 550, 39, 14" Text="CNPJ" />
-                    <uc:OcrTextInfo Region="523, 551, 25, 13" Text="sob" />
-                    <uc:OcrTextInfo Region="551, 553, 11, 11" Text="0" />
-                    <uc:OcrTextInfo Region="565, 551, 15, 13" Text="n¿" />
-                    <uc:OcrTextInfo Region="584, 551, 138, 15" Text="07.808.907/0001-20," />
-                    <uc:OcrTextInfo Region="725, 553, 29, 11" Text="com" />
-                    <uc:OcrTextInfo Region="758, 550, 33, 14" Text="sede" />
-                    <uc:OcrTextInfo Region="795, 553, 18, 11" Text="na" />
-                    <uc:OcrTextInfo Region="816, 551, 23, 13" Text="Av." />
-                    <uc:OcrTextInfo Region="843, 551, 37, 13" Text="Assis" />
-                    <uc:OcrTextInfo Region="884, 551, 41, 14" Text="Brasil," />
-                    <uc:OcrTextInfo Region="348, 571, 15, 13" Text="n¿" />
-                    <uc:OcrTextInfo Region="366, 571, 38, 15" Text="3940," />
-                    <uc:OcrTextInfo Region="408, 571, 38, 13" Text="Bloco" />
-                    <uc:OcrTextInfo Region="449, 570, 15, 16" Text="D," />
-                    <uc:OcrTextInfo Region="467, 570, 16, 14" Text="4°" />
-                    <uc:OcrTextInfo Region="485, 571, 44, 15" Text="andar," />
-                    <uc:OcrTextInfo Region="532, 573, 18, 11" Text="na" />
-                    <uc:OcrTextInfo Region="553, 570, 45, 14" Text="cidade" />
-                    <uc:OcrTextInfo Region="600, 571, 19, 13" Text="de" />
-                    <uc:OcrTextInfo Region="622, 571, 36, 13" Text="Porto" />
-                    <uc:OcrTextInfo Region="661, 570, 43, 17" Text="Alegre" />
-                    <uc:OcrTextInfo Region="708, 573, 7, 11" Text="-" />
-                    <uc:OcrTextInfo Region="718, 570, 25, 16" Text="RS," />
-                    <uc:OcrTextInfo Region="746, 571, 37, 13" Text="neste" />
-                    <uc:OcrTextInfo Region="787, 571, 22, 13" Text="ato" />
-                    <uc:OcrTextInfo Region="812, 570, 87, 17" Text="representada" />
-                    <uc:OcrTextInfo Region="903, 573, 23, 13" Text="por" />
-                    <uc:OcrTextInfo Region="348, 589, 40, 14" Text="Maria" />
-                    <uc:OcrTextInfo Region="393, 589, 43, 14" Text="Isabel" />
-                    <uc:OcrTextInfo Region="442, 589, 43, 17" Text="Braga" />
-                    <uc:OcrTextInfo Region="488, 588, 31, 15" Text="Abe" />
-                    <uc:OcrTextInfo Region="523, 589, 49, 17" Text="Lopes," />
-                    <uc:OcrTextInfo Region="584, 589, 65, 16" Text="brasileira," />
-                    <uc:OcrTextInfo Region="666, 589, 54, 16" Text="casada," />
-                    <uc:OcrTextInfo Region="732, 589, 82, 16" Text="Economista," />
-                    <uc:OcrTextInfo Region="833, 590, 63, 15" Text="portadora" />
-                    <uc:OcrTextInfo Region="907, 589, 19, 14" Text="da" />
-                    <uc:OcrTextInfo Region="348, 609, 51, 13" Text="carteira" />
-                    <uc:OcrTextInfo Region="407, 609, 18, 13" Text="de" />
-                    <uc:OcrTextInfo Region="432, 608, 70, 14" Text="identidade" />
-                    <uc:OcrTextInfo Region="515, 609, 15, 13" Text="n¿" />
-                    <uc:OcrTextInfo Region="538, 608, 88, 15" Text="2076620851," />
-                    <uc:OcrTextInfo Region="633, 608, 49, 14" Text="inscrito" />
-                    <uc:OcrTextInfo Region="690, 611, 18, 11" Text="no" />
-                    <uc:OcrTextInfo Region="716, 608, 31, 14" Text="CPF" />
-                    <uc:OcrTextInfo Region="760, 609, 25, 13" Text="sob" />
-                    <uc:OcrTextInfo Region="798, 608, 15, 14" Text="n¿" />
-                    <uc:OcrTextInfo Region="817, 608, 108, 15" Text="005.542.290-05," />
-                    <uc:OcrTextInfo Region="1314, 612, 19, 16" Text="A)" />
-                    <uc:OcrTextInfo Region="348, 628, 62, 14" Text="residente" />
-                    <uc:OcrTextInfo Region="423, 631, 10, 11" Text="e" />
-                    <uc:OcrTextInfo Region="447, 628, 74, 14" Text="domiciliada" />
-                    <uc:OcrTextInfo Region="535, 631, 17, 11" Text="na" />
-                    <uc:OcrTextInfo Region="566, 628, 45, 14" Text="cidade" />
-                    <uc:OcrTextInfo Region="624, 628, 18, 14" Text="de" />
-                    <uc:OcrTextInfo Region="656, 628, 36, 14" Text="Porto" />
-                    <uc:OcrTextInfo Region="695, 628, 48, 17" Text="Alegre," />
-                    <uc:OcrTextInfo Region="747, 631, 18, 11" Text="na" />
-                    <uc:OcrTextInfo Region="773, 629, 28, 13" Text="Rua" />
-                    <uc:OcrTextInfo Region="811, 629, 62, 15" Text="Limoeiro," />
-                    <uc:OcrTextInfo Region="880, 628, 16, 14" Text="n¿" />
-                    <uc:OcrTextInfo Region="899, 628, 26, 14" Text="135" />
-                    <uc:OcrTextInfo Region="1311, 634, 25, 12" Text="POR" />
-                    <uc:OcrTextInfo Region="348, 648, 30, 15" Text="apto" />
-                    <uc:OcrTextInfo Region="389, 647, 27, 14" Text="802" />
-                    <uc:OcrTextInfo Region="418, 650, 7, 10" Text="-" />
-                    <uc:OcrTextInfo Region="427, 647, 36, 14" Text="Torre" />
-                    <uc:OcrTextInfo Region="465, 648, 16, 14" Text="A," />
-                    <uc:OcrTextInfo Region="485, 647, 62, 17" Text="endereco" />
-                    <uc:OcrTextInfo Region="550, 647, 65, 14" Text="eletronico" />
-                    <uc:OcrTextInfo Region="620, 647, 177, 17" Text="maria_abe@sicredi.com.br," />
-                    <uc:OcrTextInfo Region="801, 650, 19, 11" Text="no" />
-                    <uc:OcrTextInfo Region="822, 647, 28, 14" Text="final" />
-                    <uc:OcrTextInfo Region="853, 648, 60, 13" Text="assinado" />
-                    <uc:OcrTextInfo Region="916, 650, 9, 11" Text="e" />
-                    <uc:OcrTextInfo Region="1309, 651, 29, 12" Text="PTB2" />
-                    <uc:OcrTextInfo Region="349, 666, 79, 16" Text="identificada," />
-                    <uc:OcrTextInfo Region="435, 666, 89, 14" Text="considerando" />
-                    <uc:OcrTextInfo Region="531, 668, 25, 15" Text="que" />
-                    <uc:OcrTextInfo Region="564, 667, 41, 13" Text="houve" />
-                    <uc:OcrTextInfo Region="611, 669, 11, 11" Text="0" />
-                    <uc:OcrTextInfo Region="636, 667, 76, 16" Text="pagamento" />
-                    <uc:OcrTextInfo Region="742, 666, 51, 17" Text="integral" />
-                    <uc:OcrTextInfo Region="815, 667, 18, 13" Text="da" />
-                    <uc:OcrTextInfo Region="856, 666, 45, 16" Text="divida," />
-                    <uc:OcrTextInfo Region="915, 669, 10, 11" Text="a" />
-                    <uc:OcrTextInfo Region="1309, 680, 30, 12" Text="07:45" />
-                    <uc:OcrTextInfo Region="347, 686, 137, 14" Text="ADMINISTRADORA" />
-                    <uc:OcrTextInfo Region="505, 687, 18, 13" Text="da" />
-                    <uc:OcrTextInfo Region="545, 687, 38, 16" Text="plena" />
-                    <uc:OcrTextInfo Region="597, 686, 61, 17" Text="quitacao," />
-                    <uc:OcrTextInfo Region="665, 686, 54, 14" Text="autoriza" />
-                    <uc:OcrTextInfo Region="725, 689, 10, 12" Text="e" />
-                    <uc:OcrTextInfo Region="742, 689, 45, 13" Text="requer" />
-                    <uc:OcrTextInfo Region="792, 689, 10, 11" Text="0" />
-                    <uc:OcrTextInfo Region="809, 686, 93, 14" Text="cancelamento" />
-                    <uc:OcrTextInfo Region="908, 687, 18, 13" Text="da" />
-                    <uc:OcrTextInfo Region="1294, 697, 59, 12" Text="21/07/2022" />
-                    <uc:OcrTextInfo Region="348, 705, 64, 17" Text="alienacao" />
-                    <uc:OcrTextInfo Region="415, 705, 60, 14" Text="fiduciaria" />
-                    <uc:OcrTextInfo Region="477, 706, 45, 13" Text="abaixo" />
-                    <uc:OcrTextInfo Region="525, 705, 93, 16" Text="caracterizada," />
-                    <uc:OcrTextInfo Region="622, 708, 24, 11" Text="nos" />
-                    <uc:OcrTextInfo Region="649, 706, 46, 13" Text="termos" />
-                    <uc:OcrTextInfo Region="697, 705, 19, 14" Text="do" />
-                    <uc:OcrTextInfo Region="718, 706, 22, 13" Text="art." />
-                    <uc:OcrTextInfo Region="743, 706, 19, 13" Text="25" />
-                    <uc:OcrTextInfo Region="763, 706, 19, 13" Text="da" />
-                    <uc:OcrTextInfo Region="784, 706, 21, 13" Text="Lei" />
-                    <uc:OcrTextInfo Region="807, 705, 62, 15" Text="9.514/97." />
-                  </scg:List>
-                </uc:CVCache.OcrTexts>
-              </uc:CVCache>
               <uc:CVCache DisplayName="Screen CV Get Text - ''" Id="4ec151ca-9ab9-4a60-bc95-cb08823617db" InformativeScreenshot="82fc7da210dc0fe0098c7ee1f77b97df" LogicalPosition="-2806, 0" OcrText="Termo de Liberacao - Arlei- assin X + _ X i File nas01/sup_planejamento_controle/tecnica_produtos/CFP/2.//3.%20Termo%20de%20Liberacao/4.%20AG%20ASSINATURAS/lote/C + ... 1 of 1 + A T v v Maria Isabel Braga Abe Lopes, brasileira, casada, Economista, portadora da carteira de identidade n¿ 2076620851, inscrito no CPF sob n¿ 005.542.290-05, residente e domiciliada na cidade de Porto Alegre, na Rua Limoeiro, n¿ 135 apto 802 - Torre A, endereco eletronico maria_abe@sicredi.com.br, no final assinado e identificada, considerando que houve O pagamento integral da divida, a ADMINISTRADORA da plena quitacao, autoriza e requer O cancelamento da alienacao fiduciaria abaixo caracterizada, nos termos do art. 25 da Lei 9.514/97. Cartorio do Registro de Imoveis: COM SANTA HELENA-PR Numero do registro da alienacao fiduciaria: R05 - de 04 de Fevereiro de 2015 Numero(s) da(s) matricula(s): 9.213 MARIA ISABEL Assinado de forma digital por MARIA ISABEL BRAGA ABE BRAGA ABE LOPES Dados: 2022.06.07 LOPES 08:37:48 -03'00' Administradora de Consorcios Sicredi Ltda. 4) POR PTB2 07:46 21/07/2022" Position="-2806, 0" ScreenshotGuid="2e4f40fa-b25b-4d82-b6c2-23e1f3e37d27" ServerVersion="1">
                 <uc:CVCache.CvAnchorRelations>
                   <scg:List x:TypeArguments="uc:AnchorRelationInfo" Capacity="0" />
@@ -6115,6 +5851,283 @@
                     <uc:OcrTextInfo Region="953, 685, 40, 11" Text="Cancela" />
                     <uc:OcrTextInfo Region="1309, 680, 30, 12" Text="08:58" />
                     <uc:OcrTextInfo Region="1294, 697, 60, 12" Text="21/07/2022" />
+                  </scg:List>
+                </uc:CVCache.OcrTexts>
+              </uc:CVCache>
+              <uc:CVCache DisplayName="Screen CV Click - 'PTB2'" Id="3b62c49f-0fee-4a0d-a18a-965adb146df5" InformativeScreenshot="12217e035d995ac7e16795d526c6f472" LogicalPosition="-2806, 0" OcrText="Termo de Liberacao - R V TESTA X + wts2ncpco... - X _ X i File Inas01/sup_planejamento_controle/tecnica_produtos/CFP/2.I/3.%20Termo%20de%20Liberacao/4.%20AG%20ASSINATURAS/lote/C... + ... 1 of 1 + AM T v v TERMO DE LIBERACAO E CANCELAMENTO DE REGISTRO DE ALIENACAO FIDUCIARIA Porto Alegre, 03 de Junho de 2022 Consorciado(a): R V TESTA CIA LTDA CNPJ: 02.672.216/0002-00 Grupo: 070023 Cota: 0232 ADMINISTRADORA DE CONSORCIOS SICREDI LTDA, pessoa juridica de direito privado, inscrita no CNPJ sob 0 n¿ 07.808.907/0001-20, com sede na Av. Assis Brasil, n¿ 3940, Bloco D, 4° andar, na cidade de Porto Alegre - RS, neste ato representada por Maria Isabel Braga Abe Lopes, brasileira, casada, Economista, portadora da carteira de identidade n¿ 2076620851, inscrito no CPF sob n¿ 005.542.290-05, A) residente e domiciliada na cidade de Porto Alegre, na Rua Limoeiro, n¿ 135 POR apto 802 - Torre A, endereco eletronico maria_abe@sicredi.com.br, no final assinado e PTB2 identificada, considerando que houve 0 pagamento integral da divida, a 15:16 ADMINISTRADORA da plena quitacao, autoriza e requer O cancelamento da 21/07/2022 alienacao fiduciaria abaixo caracterizada, nos termos do art. 25 da Lei 9.514/97." Position="-2806, 0" ScreenshotGuid="313e7db0-6679-4cf1-99db-0e92a181aecd" ServerVersion="1">
+                <uc:CVCache.CvAnchorRelations>
+                  <scg:List x:TypeArguments="uc:AnchorRelationInfo" Capacity="0" />
+                </uc:CVCache.CvAnchorRelations>
+                <uc:CVCache.CvUiElements>
+                  <scg:List x:TypeArguments="uc:CvElementInfo" Capacity="128">
+                    <uc:CvElementInfo Category="Icon" Region="1061, 81, 23, 21" />
+                    <uc:CvElementInfo Category="Icon" Region="12, 80, 24, 21" />
+                    <uc:CvElementInfo Category="Icon" Region="1102, 80, 20, 21" />
+                    <uc:CvElementInfo Category="Icon" Region="1308, 270, 31, 32" />
+                    <uc:CvElementInfo Category="Icon" Region="1312, 48, 23, 23" />
+                    <uc:CvElementInfo Category="Icon" Region="827, 81, 22, 19" />
+                    <uc:CvElementInfo Category="Icon" Region="139, 81, 21, 21" />
+                    <uc:CvElementInfo Category="Icon" Region="1309, 224, 30, 31" />
+                    <uc:CvElementInfo Category="Button" Region="47, 0, 241, 32" />
+                    <uc:CvElementInfo Category="Icon" Region="54, 5, 21, 22" />
+                    <uc:CvElementInfo Category="Icon" Region="681, 82, 22, 18" />
+                    <uc:CvElementInfo Category="Icon" Region="1107, 39, 23, 22" />
+                    <uc:CvElementInfo Category="Icon" Region="104, 39, 22, 23" />
+                    <uc:CvElementInfo Category="Icon" Region="1152, 40, 22, 22" />
+                    <uc:CvElementInfo Category="Icon" Region="1057, 39, 23, 23" />
+                    <uc:CvElementInfo Category="Icon" Region="1309, 133, 29, 26" />
+                    <uc:CvElementInfo Category="Icon" Region="641, 80, 21, 22" />
+                    <uc:CvElementInfo Category="InputBox" Region="158, 35, 920, 32" />
+                    <uc:CvElementInfo Category="Icon" Region="1309, 177, 30, 30" />
+                    <uc:CvElementInfo Category="Icon" Region="158, 39, 22, 22" />
+                    <uc:CvElementInfo Category="Icon" Region="1012, 80, 24, 22" />
+                    <uc:CvElementInfo Category="Icon" Region="1230, 78, 23, 24" />
+                    <uc:CvElementInfo Category="Icon" Region="1143, 81, 21, 21" />
+                    <uc:CvElementInfo Category="Icon" Region="59, 39, 25, 23" />
+                    <uc:CvElementInfo Category="Icon" Region="724, 2, 23, 21" />
+                    <uc:CvElementInfo Category="MaximizeButton" Region="1205, 6, 19, 19" />
+                    <uc:CvElementInfo Category="Icon" Region="945, 79, 22, 23" />
+                    <uc:CvElementInfo Category="CloseButton" Region="262, 7, 17, 18" />
+                    <uc:CvElementInfo Category="Icon" Region="1195, 37, 28, 28" />
+                    <uc:CvElementInfo Category="Icon" Region="729, 81, 22, 21" />
+                    <uc:CvElementInfo Category="Icon" Region="1190, 80, 22, 22" />
+                    <uc:CvElementInfo Category="Icon" Region="747, 1, 23, 22" />
+                    <uc:CvElementInfo Category="Icon" Region="600, 79, 23, 23" />
+                    <uc:CvElementInfo Category="Icon" Region="293, 5, 21, 21" />
+                    <uc:CvElementInfo Category="MaximizeButton" Region="898, 2, 19, 20" />
+                    <uc:CvElementInfo Category="Icon" Region="876, 79, 22, 23" />
+                    <uc:CvElementInfo Category="Icon" Region="15, 39, 24, 23" />
+                    <uc:CvElementInfo Category="MinimizeButton" Region="1158, 8, 20, 16" />
+                    <uc:CvElementInfo Category="ArrowButton" Region="912, 83, 18, 17" />
+                    <uc:CvElementInfo Category="CloseButton" Region="1250, 6, 19, 19" />
+                    <uc:CvElementInfo Category="ArrowButton" Region="981, 82, 19, 19" />
+                    <uc:CvElementInfo Category="Icon" Region="779, 80, 21, 21" />
+                    <uc:CvElementInfo Category="InputBox" Region="50, 73, 42, 34" />
+                    <uc:CvElementInfo Category="MinimizeButton" Region="875, 5, 19, 18" />
+                    <uc:CvElementInfo Category="Icon" Region="1244, 43, 22, 16" />
+                    <uc:CvElementInfo Category="Icon" Region="13, 6, 20, 20" />
+                    <uc:CvElementInfo Category="Icon" Region="1310, 89, 28, 23" />
+                    <uc:CvElementInfo Category="Icon" Region="1311, 7, 26, 25" />
+                    <uc:CvElementInfo Category="CloseButton" Region="920, 3, 19, 18" />
+                    <uc:CvElementInfo Category="Icon" Region="559, 82, 24, 18" />
+                    <uc:CvElementInfo Category="ArrowButton" Region="1266, 70, 17, 18" />
+                    <uc:CvElementInfo Category="Icon" Region="1290, 611, 22, 19" />
+                    <uc:CvElementInfo Category="Button" Confidence="Runtime" Region="0, 0, 47, 33" />
+                    <uc:CvElementInfo Category="Button" Confidence="Runtime" Region="1282, 170, 83, 48" />
+                    <uc:CvElementInfo Category="MinimizeButton" Confidence="Runtime" Region="558, 79, 25, 22" />
+                    <uc:CvElementInfo Category="Button" Confidence="Runtime" Region="1291, 612, 19, 18" />
+                    <uc:CvElementInfo Category="Button" Confidence="Runtime" Region="50, 74, 42, 33" />
+                    <uc:CvElementInfo Category="Icon" Confidence="Runtime" Region="1313, 610, 21, 19" />
+                    <uc:CvElementInfo Category="Button" Confidence="Runtime" Region="720, 1, 197, 23" />
+                    <uc:CvElementInfo Category="Icon" Confidence="Runtime" Region="64, 82, 15, 18" />
+                    <uc:CvElementInfo Category="Icon" Confidence="Runtime" Region="100, 82, 26, 19" />
+                    <uc:CvElementInfo Category="Icon" Confidence="Runtime" Region="514, 607, 18, 16" />
+                    <uc:CvElementInfo Category="Icon" Confidence="Runtime" Region="56, 76, 30, 28" />
+                    <uc:CvElementInfo Category="Icon" Confidence="Runtime" Region="920, 1, 21, 22" />
+                    <uc:CvElementInfo Category="MaximizeButton" Confidence="Runtime" Region="5, 2, 35, 29" />
+                    <uc:CvElementInfo Category="ArrowButton" Confidence="Runtime" Region="559, 81, 24, 20" />
+                    <uc:CvElementInfo Category="InputBox" Confidence="Runtime" Region="776, 5, 119, 20" />
+                    <uc:CvElementInfo Category="Button" Confidence="Runtime" Region="1194, 37, 29, 28" />
+                    <uc:CvElementInfo Category="Cell" Confidence="Runtime" Region="234, 668, 28, 25" />
+                    <uc:CvElementInfo Category="Cell" Confidence="Runtime" Region="234, 657, 31, 14" />
+                    <uc:CvElementInfo Category="Cell" Confidence="Runtime" Region="233, 675, 39, 23" />
+                    <uc:CvElementInfo Category="Cell" Confidence="Runtime" Region="235, 661, 27, 23" />
+                    <uc:CvElementInfo Category="Cell" Confidence="Runtime" Region="233, 683, 40, 23" />
+                    <uc:CvElementInfo Category="Cell" Confidence="Runtime" Region="234, 649, 31, 14" />
+                    <uc:CvElementInfo Category="Cell" Confidence="Runtime" Region="234, 640, 32, 15" />
+                    <uc:CvElementInfo Category="Cell" Confidence="Runtime" Region="235, 653, 22, 52" />
+                    <uc:CvElementInfo Category="Cell" Confidence="Runtime" Region="235, 631, 22, 53" />
+                    <uc:CvElementInfo Category="Cell" Confidence="Runtime" Region="233, 629, 37, 21" />
+                    <uc:CvElementInfo Category="Cell" Confidence="Runtime" Region="234, 698, 31, 28" />
+                    <uc:CvElementInfo Category="Cell" Confidence="Runtime" Region="235, 620, 26, 24" />
+                    <uc:CvElementInfo Category="Cell" Confidence="Runtime" Region="226, 670, 73, 29" />
+                    <uc:CvElementInfo Category="Cell" Confidence="Runtime" Region="235, 603, 22, 55" />
+                    <uc:CvElementInfo Category="Cell" Confidence="Runtime" Region="234, 709, 63, 18" />
+                    <uc:CvElementInfo Category="InputBox" Confidence="Runtime" Region="241, 122, 791, 606" />
+                    <uc:CvElementInfo Category="ArrowButton" Confidence="Runtime" Region="609, 667, 14, 15" />
+                  </scg:List>
+                </uc:CVCache.CvUiElements>
+                <uc:CVCache.OcrTexts>
+                  <scg:List x:TypeArguments="uc:OcrTextInfo" Capacity="256">
+                    <uc:OcrTextInfo Region="83, 9, 35, 12" Text="Termo" />
+                    <uc:OcrTextInfo Region="119, 9, 15, 12" Text="de" />
+                    <uc:OcrTextInfo Region="136, 9, 52, 15" Text="Liberacao" />
+                    <uc:OcrTextInfo Region="190, 10, 6, 12" Text="-" />
+                    <uc:OcrTextInfo Region="198, 9, 9, 12" Text="R" />
+                    <uc:OcrTextInfo Region="208, 9, 10, 11" Text="V" />
+                    <uc:OcrTextInfo Region="219, 9, 36, 12" Text="TESTA" />
+                    <uc:OcrTextInfo Region="264, 10, 12, 12" Text="X" />
+                    <uc:OcrTextInfo Region="295, 7, 17, 16" Text="+" />
+                    <uc:OcrTextInfo Region="799, 7, 67, 13" Text="wts2ncpco..." />
+                    <uc:OcrTextInfo Region="878, 5, 10, 12" Text="-" />
+                    <uc:OcrTextInfo Region="923, 6, 12, 10" Text="X" />
+                    <uc:OcrTextInfo Region="1161, 6, 13, 13" Text="_" />
+                    <uc:OcrTextInfo Region="1253, 9, 14, 12" Text="X" />
+                    <uc:OcrTextInfo Region="166, 45, 5, 11" Text="i" />
+                    <uc:OcrTextInfo Region="185, 44, 23, 13" Text="File" />
+                    <uc:OcrTextInfo Region="215, 43, 830, 18" Text="Inas01/sup_planejamento_controle/tecnica_produtos/CFP/2.I/3.%20Termo%20de%20Liberacao/4.%20AG%20ASSINATURAS/lote/C..." />
+                    <uc:OcrTextInfo Region="1160, 49, 9, 8" Text="+" />
+                    <uc:OcrTextInfo Region="1246, 41, 16, 12" Text="..." />
+                    <uc:OcrTextInfo Region="68, 85, 7, 11" Text="1" />
+                    <uc:OcrTextInfo Region="101, 85, 13, 12" Text="of" />
+                    <uc:OcrTextInfo Region="115, 85, 7, 12" Text="1" />
+                    <uc:OcrTextInfo Region="603, 82, 16, 17" Text="+" />
+                    <uc:OcrTextInfo Region="781, 81, 17, 18" Text="AM" />
+                    <uc:OcrTextInfo Region="833, 85, 10, 11" Text="T" />
+                    <uc:OcrTextInfo Region="916, 87, 11, 8" Text="v" />
+                    <uc:OcrTextInfo Region="984, 87, 11, 8" Text="v" />
+                    <uc:OcrTextInfo Region="354, 236, 71, 17" Text="TERMO" />
+                    <uc:OcrTextInfo Region="428, 236, 28, 18" Text="DE" />
+                    <uc:OcrTextInfo Region="459, 233, 113, 23" Text="LIBERACAO" />
+                    <uc:OcrTextInfo Region="575, 236, 15, 18" Text="E" />
+                    <uc:OcrTextInfo Region="593, 236, 161, 17" Text="CANCELAMENTO" />
+                    <uc:OcrTextInfo Region="757, 236, 27, 17" Text="DE" />
+                    <uc:OcrTextInfo Region="787, 236, 100, 17" Text="REGISTRO" />
+                    <uc:OcrTextInfo Region="890, 236, 28, 18" Text="DE" />
+                    <uc:OcrTextInfo Region="523, 256, 115, 22" Text="ALIENACAO" />
+                    <uc:OcrTextInfo Region="641, 257, 109, 19" Text="FIDUCIARIA" />
+                    <uc:OcrTextInfo Region="697, 296, 37, 13" Text="Porto" />
+                    <uc:OcrTextInfo Region="735, 295, 49, 17" Text="Alegre," />
+                    <uc:OcrTextInfo Region="786, 295, 18, 14" Text="03" />
+                    <uc:OcrTextInfo Region="807, 296, 18, 13" Text="de" />
+                    <uc:OcrTextInfo Region="827, 295, 42, 14" Text="Junho" />
+                    <uc:OcrTextInfo Region="871, 296, 18, 13" Text="de" />
+                    <uc:OcrTextInfo Region="891, 295, 35, 14" Text="2022" />
+                    <uc:OcrTextInfo Region="349, 363, 104, 17" Text="Consorciado(a):" />
+                    <uc:OcrTextInfo Region="456, 363, 13, 14" Text="R" />
+                    <uc:OcrTextInfo Region="471, 363, 12, 14" Text="V" />
+                    <uc:OcrTextInfo Region="485, 363, 49, 14" Text="TESTA" />
+                    <uc:OcrTextInfo Region="536, 363, 27, 14" Text="CIA" />
+                    <uc:OcrTextInfo Region="564, 363, 41, 14" Text="LTDA" />
+                    <uc:OcrTextInfo Region="348, 397, 44, 14" Text="CNPJ:" />
+                    <uc:OcrTextInfo Region="398, 397, 134, 14" Text="02.672.216/0002-00" />
+                    <uc:OcrTextInfo Region="349, 432, 45, 16" Text="Grupo:" />
+                    <uc:OcrTextInfo Region="397, 431, 51, 14" Text="070023" />
+                    <uc:OcrTextInfo Region="348, 465, 36, 14" Text="Cota:" />
+                    <uc:OcrTextInfo Region="387, 465, 35, 14" Text="0232" />
+                    <uc:OcrTextInfo Region="348, 531, 138, 14" Text="ADMINISTRADORA" />
+                    <uc:OcrTextInfo Region="492, 531, 22, 14" Text="DE" />
+                    <uc:OcrTextInfo Region="520, 528, 102, 17" Text="CONSORCIOS" />
+                    <uc:OcrTextInfo Region="629, 531, 61, 14" Text="SICREDI" />
+                    <uc:OcrTextInfo Region="697, 531, 45, 16" Text="LTDA," />
+                    <uc:OcrTextInfo Region="749, 533, 48, 15" Text="pessoa" />
+                    <uc:OcrTextInfo Region="802, 531, 51, 17" Text="juridica" />
+                    <uc:OcrTextInfo Region="860, 531, 18, 14" Text="de" />
+                    <uc:OcrTextInfo Region="884, 531, 42, 14" Text="direito" />
+                    <uc:OcrTextInfo Region="348, 550, 54, 17" Text="privado," />
+                    <uc:OcrTextInfo Region="406, 550, 47, 14" Text="inscrita" />
+                    <uc:OcrTextInfo Region="457, 553, 18, 11" Text="no" />
+                    <uc:OcrTextInfo Region="479, 550, 39, 14" Text="CNPJ" />
+                    <uc:OcrTextInfo Region="523, 551, 25, 13" Text="sob" />
+                    <uc:OcrTextInfo Region="551, 553, 11, 11" Text="0" />
+                    <uc:OcrTextInfo Region="565, 551, 15, 13" Text="n¿" />
+                    <uc:OcrTextInfo Region="584, 551, 138, 15" Text="07.808.907/0001-20," />
+                    <uc:OcrTextInfo Region="725, 553, 29, 11" Text="com" />
+                    <uc:OcrTextInfo Region="758, 550, 33, 14" Text="sede" />
+                    <uc:OcrTextInfo Region="795, 553, 18, 11" Text="na" />
+                    <uc:OcrTextInfo Region="816, 551, 23, 13" Text="Av." />
+                    <uc:OcrTextInfo Region="843, 551, 37, 13" Text="Assis" />
+                    <uc:OcrTextInfo Region="884, 551, 41, 14" Text="Brasil," />
+                    <uc:OcrTextInfo Region="348, 571, 15, 13" Text="n¿" />
+                    <uc:OcrTextInfo Region="366, 571, 38, 15" Text="3940," />
+                    <uc:OcrTextInfo Region="408, 571, 38, 13" Text="Bloco" />
+                    <uc:OcrTextInfo Region="449, 570, 15, 16" Text="D," />
+                    <uc:OcrTextInfo Region="467, 570, 16, 14" Text="4°" />
+                    <uc:OcrTextInfo Region="485, 571, 44, 15" Text="andar," />
+                    <uc:OcrTextInfo Region="532, 573, 18, 11" Text="na" />
+                    <uc:OcrTextInfo Region="553, 570, 45, 14" Text="cidade" />
+                    <uc:OcrTextInfo Region="600, 571, 19, 13" Text="de" />
+                    <uc:OcrTextInfo Region="622, 571, 36, 13" Text="Porto" />
+                    <uc:OcrTextInfo Region="661, 570, 43, 17" Text="Alegre" />
+                    <uc:OcrTextInfo Region="708, 573, 7, 11" Text="-" />
+                    <uc:OcrTextInfo Region="718, 570, 25, 16" Text="RS," />
+                    <uc:OcrTextInfo Region="746, 571, 37, 13" Text="neste" />
+                    <uc:OcrTextInfo Region="787, 571, 22, 13" Text="ato" />
+                    <uc:OcrTextInfo Region="812, 570, 87, 17" Text="representada" />
+                    <uc:OcrTextInfo Region="903, 573, 23, 13" Text="por" />
+                    <uc:OcrTextInfo Region="348, 589, 40, 14" Text="Maria" />
+                    <uc:OcrTextInfo Region="393, 589, 43, 14" Text="Isabel" />
+                    <uc:OcrTextInfo Region="442, 589, 43, 17" Text="Braga" />
+                    <uc:OcrTextInfo Region="488, 588, 31, 15" Text="Abe" />
+                    <uc:OcrTextInfo Region="523, 589, 49, 17" Text="Lopes," />
+                    <uc:OcrTextInfo Region="584, 589, 65, 16" Text="brasileira," />
+                    <uc:OcrTextInfo Region="666, 589, 54, 16" Text="casada," />
+                    <uc:OcrTextInfo Region="732, 589, 82, 16" Text="Economista," />
+                    <uc:OcrTextInfo Region="833, 590, 63, 15" Text="portadora" />
+                    <uc:OcrTextInfo Region="907, 589, 19, 14" Text="da" />
+                    <uc:OcrTextInfo Region="348, 609, 51, 13" Text="carteira" />
+                    <uc:OcrTextInfo Region="407, 609, 18, 13" Text="de" />
+                    <uc:OcrTextInfo Region="433, 608, 69, 14" Text="identidade" />
+                    <uc:OcrTextInfo Region="515, 609, 15, 13" Text="n¿" />
+                    <uc:OcrTextInfo Region="538, 608, 88, 15" Text="2076620851," />
+                    <uc:OcrTextInfo Region="633, 608, 49, 14" Text="inscrito" />
+                    <uc:OcrTextInfo Region="690, 611, 18, 11" Text="no" />
+                    <uc:OcrTextInfo Region="716, 608, 31, 14" Text="CPF" />
+                    <uc:OcrTextInfo Region="760, 609, 25, 13" Text="sob" />
+                    <uc:OcrTextInfo Region="798, 608, 15, 14" Text="n¿" />
+                    <uc:OcrTextInfo Region="817, 608, 108, 15" Text="005.542.290-05," />
+                    <uc:OcrTextInfo Region="1314, 612, 19, 16" Text="A)" />
+                    <uc:OcrTextInfo Region="348, 628, 62, 14" Text="residente" />
+                    <uc:OcrTextInfo Region="423, 631, 10, 11" Text="e" />
+                    <uc:OcrTextInfo Region="447, 628, 74, 14" Text="domiciliada" />
+                    <uc:OcrTextInfo Region="535, 631, 17, 11" Text="na" />
+                    <uc:OcrTextInfo Region="566, 628, 45, 14" Text="cidade" />
+                    <uc:OcrTextInfo Region="624, 628, 18, 14" Text="de" />
+                    <uc:OcrTextInfo Region="656, 628, 36, 14" Text="Porto" />
+                    <uc:OcrTextInfo Region="695, 628, 48, 17" Text="Alegre," />
+                    <uc:OcrTextInfo Region="747, 631, 18, 11" Text="na" />
+                    <uc:OcrTextInfo Region="773, 629, 28, 13" Text="Rua" />
+                    <uc:OcrTextInfo Region="811, 629, 62, 15" Text="Limoeiro," />
+                    <uc:OcrTextInfo Region="880, 628, 16, 14" Text="n¿" />
+                    <uc:OcrTextInfo Region="899, 628, 26, 14" Text="135" />
+                    <uc:OcrTextInfo Region="1311, 634, 25, 12" Text="POR" />
+                    <uc:OcrTextInfo Region="348, 648, 30, 15" Text="apto" />
+                    <uc:OcrTextInfo Region="389, 647, 27, 14" Text="802" />
+                    <uc:OcrTextInfo Region="418, 650, 7, 10" Text="-" />
+                    <uc:OcrTextInfo Region="427, 647, 36, 14" Text="Torre" />
+                    <uc:OcrTextInfo Region="465, 648, 16, 14" Text="A," />
+                    <uc:OcrTextInfo Region="485, 647, 62, 17" Text="endereco" />
+                    <uc:OcrTextInfo Region="550, 647, 65, 14" Text="eletronico" />
+                    <uc:OcrTextInfo Region="620, 647, 177, 17" Text="maria_abe@sicredi.com.br," />
+                    <uc:OcrTextInfo Region="801, 650, 19, 11" Text="no" />
+                    <uc:OcrTextInfo Region="822, 647, 28, 14" Text="final" />
+                    <uc:OcrTextInfo Region="853, 648, 60, 13" Text="assinado" />
+                    <uc:OcrTextInfo Region="916, 650, 9, 11" Text="e" />
+                    <uc:OcrTextInfo Region="1309, 651, 29, 12" Text="PTB2" />
+                    <uc:OcrTextInfo Region="349, 666, 79, 16" Text="identificada," />
+                    <uc:OcrTextInfo Region="435, 666, 89, 14" Text="considerando" />
+                    <uc:OcrTextInfo Region="531, 668, 25, 15" Text="que" />
+                    <uc:OcrTextInfo Region="564, 667, 41, 13" Text="houve" />
+                    <uc:OcrTextInfo Region="611, 669, 11, 11" Text="0" />
+                    <uc:OcrTextInfo Region="636, 667, 76, 16" Text="pagamento" />
+                    <uc:OcrTextInfo Region="742, 666, 51, 17" Text="integral" />
+                    <uc:OcrTextInfo Region="815, 667, 18, 13" Text="da" />
+                    <uc:OcrTextInfo Region="856, 666, 45, 16" Text="divida," />
+                    <uc:OcrTextInfo Region="915, 669, 10, 11" Text="a" />
+                    <uc:OcrTextInfo Region="1311, 680, 28, 12" Text="15:16" />
+                    <uc:OcrTextInfo Region="347, 686, 137, 14" Text="ADMINISTRADORA" />
+                    <uc:OcrTextInfo Region="505, 687, 18, 13" Text="da" />
+                    <uc:OcrTextInfo Region="545, 687, 38, 16" Text="plena" />
+                    <uc:OcrTextInfo Region="597, 686, 61, 17" Text="quitacao," />
+                    <uc:OcrTextInfo Region="665, 686, 54, 14" Text="autoriza" />
+                    <uc:OcrTextInfo Region="725, 689, 10, 12" Text="e" />
+                    <uc:OcrTextInfo Region="742, 689, 45, 13" Text="requer" />
+                    <uc:OcrTextInfo Region="792, 689, 10, 11" Text="O" />
+                    <uc:OcrTextInfo Region="809, 686, 93, 14" Text="cancelamento" />
+                    <uc:OcrTextInfo Region="908, 687, 18, 13" Text="da" />
+                    <uc:OcrTextInfo Region="1294, 697, 60, 12" Text="21/07/2022" />
+                    <uc:OcrTextInfo Region="348, 705, 64, 17" Text="alienacao" />
+                    <uc:OcrTextInfo Region="415, 705, 60, 14" Text="fiduciaria" />
+                    <uc:OcrTextInfo Region="477, 706, 45, 13" Text="abaixo" />
+                    <uc:OcrTextInfo Region="525, 705, 93, 16" Text="caracterizada," />
+                    <uc:OcrTextInfo Region="622, 708, 24, 11" Text="nos" />
+                    <uc:OcrTextInfo Region="649, 706, 46, 13" Text="termos" />
+                    <uc:OcrTextInfo Region="697, 705, 19, 14" Text="do" />
+                    <uc:OcrTextInfo Region="718, 706, 22, 13" Text="art." />
+                    <uc:OcrTextInfo Region="743, 706, 19, 13" Text="25" />
+                    <uc:OcrTextInfo Region="763, 706, 19, 13" Text="da" />
+                    <uc:OcrTextInfo Region="784, 706, 21, 13" Text="Lei" />
+                    <uc:OcrTextInfo Region="807, 705, 62, 15" Text="9.514/97." />
                   </scg:List>
                 </uc:CVCache.OcrTexts>
               </uc:CVCache>
