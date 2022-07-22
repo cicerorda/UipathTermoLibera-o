@@ -4,7 +4,7 @@
     <x:Property Name="Cota" Type="InOutArgument(x:String)" />
     <x:Property Name="Processo" Type="InOutArgument(x:String)" />
   </x:Members>
-  <sap:VirtualizedContainerService.HintSize>722,2536</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>648,2752</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="38">
@@ -92,14 +92,14 @@
       <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:Annotation.AnnotationText="processo realizado pela wts" sap:VirtualizedContainerService.HintSize="510,2471" sap2010:WorkflowViewState.IdRef="Sequence_2">
+  <Sequence sap2010:Annotation.AnnotationText="processo realizado pela wts" sap:VirtualizedContainerService.HintSize="512,2687" sap2010:WorkflowViewState.IdRef="Sequence_2">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <p:CVScope ContinueOnError="{x:Null}" DelayBefore="{x:Null}" Server="{x:Null}" CvMethod="ElementDetection, OCR" DesignTimeCacheId="bb47b82e-8dc2-4051-840c-f1aaa5662895" DisplayName="CV Screen Scope" sap:VirtualizedContainerService.HintSize="468,2348" sap2010:WorkflowViewState.IdRef="CVScope_3" Version="V5">
+    <p:CVScope ContinueOnError="{x:Null}" DelayBefore="{x:Null}" Server="{x:Null}" CvMethod="ElementDetection, OCR" DesignTimeCacheId="bb47b82e-8dc2-4051-840c-f1aaa5662895" DisplayName="CV Screen Scope" sap:VirtualizedContainerService.HintSize="470,2564" sap2010:WorkflowViewState.IdRef="CVScope_3" Version="V5">
       <p:CVScope.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
@@ -109,8 +109,8 @@
             <Sequence.Variables>
               <Variable x:TypeArguments="sd:DataTable" Name="dt_Processos" />
             </Sequence.Variables>
-            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="434,91" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Trace" Message="[&quot;Adquirindo Cotas&quot;]" />
-            <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: Icon (1320,133,29,25)&quot;]" DesignTimeCacheId="bb47b82e-8dc2-4051-840c-f1aaa5662895" DesignTimeScaleFactor="1" DisplayName="CV Click - Icon" sap:VirtualizedContainerService.HintSize="434,136" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_9" InformativeScreenshot="de4f0592d580362941f47b30c5b2277a" KeyModifiers="None" MouseButton="BTN_LEFT" Version="V5">
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="436,91" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Trace" Message="[&quot;Adquirindo Cotas&quot;]" />
+            <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: Icon (1320,133,29,25)&quot;]" DesignTimeCacheId="bb47b82e-8dc2-4051-840c-f1aaa5662895" DesignTimeScaleFactor="1" DisplayName="CV Click - Icon" sap:VirtualizedContainerService.HintSize="436,136" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_9" InformativeScreenshot="de4f0592d580362941f47b30c5b2277a" KeyModifiers="None" MouseButton="BTN_LEFT" Version="V5">
               <p:CvClickWithDescriptor.CursorPosition>
                 <ui:CursorPosition Position="Center">
                   <ui:CursorPosition.OffsetX>
@@ -139,7 +139,7 @@
                 </ui:Target>
               </p:CvClickWithDescriptor.Target>
             </p:CvClickWithDescriptor>
-            <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: Text 'lote' (183,354,22,11)&quot; +&#xA;&quot;Anchor: Text '1.' (183,401,11,12)&quot; +&#xA;&quot;Anchor: Text 'Excel envios C' (183,377,69,12)&quot;]" DesignTimeCacheId="626bd549-2631-428e-a05e-220abf76b508" DesignTimeScaleFactor="1" DisplayName="CV Click - Text" sap:VirtualizedContainerService.HintSize="434,136" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_13" InformativeScreenshot="c813354f4711580e777d11ae17b91432" KeyModifiers="None" MouseButton="BTN_LEFT" Version="V5">
+            <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: Text 'lote' (183,354,22,11)&quot; +&#xA;&quot;Anchor: Text '1.' (183,401,11,12)&quot; +&#xA;&quot;Anchor: Text 'Excel envios C' (183,377,69,12)&quot;]" DesignTimeCacheId="626bd549-2631-428e-a05e-220abf76b508" DesignTimeScaleFactor="1" DisplayName="CV Click - Text" sap:VirtualizedContainerService.HintSize="436,136" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_13" InformativeScreenshot="c813354f4711580e777d11ae17b91432" KeyModifiers="None" MouseButton="BTN_LEFT" Version="V5">
               <p:CvClickWithDescriptor.CursorPosition>
                 <ui:CursorPosition Position="Center">
                   <ui:CursorPosition.OffsetX>
@@ -174,7 +174,7 @@
                 </ui:Target>
               </p:CvClickWithDescriptor.Target>
             </p:CvClickWithDescriptor>
-            <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_DOUBLE" Descriptor="[&quot;Target: Text 'CICERO TESTE AUT' (328,283,104,12)&quot;]" DesignTimeCacheId="fc366215-e1a3-4d40-be76-f71cca60abce" DesignTimeScaleFactor="1" DisplayName="CV Click - Text" sap:VirtualizedContainerService.HintSize="434,136" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_10" InformativeScreenshot="2b743d0979a8e2046722a1c7b3cddd22" KeyModifiers="None" MouseButton="BTN_LEFT" Version="V5">
+            <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_DOUBLE" Descriptor="[&quot;Target: Text 'ASSINADOS' (339,241,66,12)&quot; +&#xD;&#xA;&quot;Anchor: Text 'Name' (308,170,33,12)&quot;]" DesignTimeCacheId="fc366215-e1a3-4d40-be76-f71cca60abce" DesignTimeScaleFactor="1" DisplayName="CV Click - Text" sap:VirtualizedContainerService.HintSize="436,136" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_10" InformativeScreenshot="9028a0aa0a11c203b5d7b1a11b52dcd8" KeyModifiers="None" MouseButton="BTN_LEFT" Version="V5">
               <p:CvClickWithDescriptor.CursorPosition>
                 <ui:CursorPosition Position="Center">
                   <ui:CursorPosition.OffsetX>
@@ -186,9 +186,14 @@
                 </ui:CursorPosition>
               </p:CvClickWithDescriptor.CursorPosition>
               <p:CvClickWithDescriptor.DesignTimeDescriptor>
-                <uc:CvDescriptor Id="c5b141f2-ee8c-4f3b-90c9-babee2ee5fd1">
+                <uc:CvDescriptor Id="2cabb7e9-d379-4949-87cf-aaf56afc1a36">
+                  <uc:CvDescriptor.Anchors>
+                    <x:Array Type="uc:CvElementDescriptor">
+                      <uc:CvElementDescriptor CellExtraInfo="{x:Null}" DesignTimeArea="308, 170, 33, 12" ElementType="Text" Text="Name" />
+                    </x:Array>
+                  </uc:CvDescriptor.Anchors>
                   <uc:CvDescriptor.Target>
-                    <uc:CvElementDescriptor CellExtraInfo="{x:Null}" DesignTimeArea="328, 283, 104, 12" ElementType="Text" Text="CICERO TESTE AUT" />
+                    <uc:CvElementDescriptor CellExtraInfo="{x:Null}" DesignTimeArea="339, 241, 66, 12" ElementType="Text" Text="ASSINADOS" />
                   </uc:CvDescriptor.Target>
                 </uc:CvDescriptor>
               </p:CvClickWithDescriptor.DesignTimeDescriptor>
@@ -203,7 +208,7 @@
                 </ui:Target>
               </p:CvClickWithDescriptor.Target>
             </p:CvClickWithDescriptor>
-            <p:CvExtractDataTableWithDescriptor InRegion="{x:Null}" AddHeaders="True" DelayScreenshotAfterScroll="250" Descriptor="[&quot;Target: Table (291,160,592,390)&quot;]" DesignTimeCacheId="c0b08397-8b95-485d-970d-a3a0ab8fd5fe" DesignTimeScaleFactor="1" DisplayName="CV Extract Table - Table" sap:VirtualizedContainerService.HintSize="434,136" sap2010:WorkflowViewState.IdRef="CvExtractDataTableWithDescriptor_2" IgnoreEmptyRows="False" InformativeScreenshot="3daf9decf1fc86a2a0d2473142e57779" MaxTableScrollHeightInPixels="30000" RefreshBefore="True" Result="[dt_Processos]" Scroll="False" Version="V5">
+            <p:CvExtractDataTableWithDescriptor InRegion="{x:Null}" AddHeaders="True" DelayScreenshotAfterScroll="250" Descriptor="[&quot;Target: Table (291,160,592,390)&quot;]" DesignTimeCacheId="c0b08397-8b95-485d-970d-a3a0ab8fd5fe" DesignTimeScaleFactor="1" DisplayName="CV Extract Table - Table" sap:VirtualizedContainerService.HintSize="436,136" sap2010:WorkflowViewState.IdRef="CvExtractDataTableWithDescriptor_2" IgnoreEmptyRows="False" InformativeScreenshot="3daf9decf1fc86a2a0d2473142e57779" MaxTableScrollHeightInPixels="30000" RefreshBefore="True" Result="[dt_Processos]" Scroll="False" Version="V5">
               <p:CvExtractDataTableWithDescriptor.DesignTimeDescriptor>
                 <uc:CvDescriptor Id="2a84ebc1-fb2f-4b27-bfba-e7555e74d691">
                   <uc:CvDescriptor.Target>
@@ -212,8 +217,8 @@
                 </uc:CvDescriptor>
               </p:CvExtractDataTableWithDescriptor.DesignTimeDescriptor>
             </p:CvExtractDataTableWithDescriptor>
-            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="434,91" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Trace" Message="[&quot;Cotas Adquiridas&quot;]" />
-            <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: MinimizeButton (1129,81,21,17)&quot; +&#xD;&#xA;&quot;Anchor: Text '?' (1240,110,6,11)&quot;]" DesignTimeCacheId="c0b08397-8b95-485d-970d-a3a0ab8fd5fe" DesignTimeScaleFactor="1" DisplayName="CV Click - MinimizeButton" sap:VirtualizedContainerService.HintSize="434,136" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_20" InformativeScreenshot="e99121ff82367106be5dd5cdfb86e9b7" KeyModifiers="None" MouseButton="BTN_LEFT" Version="V5">
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="436,91" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Trace" Message="[&quot;Cotas Adquiridas&quot;]" />
+            <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: MinimizeButton (1129,81,21,17)&quot; +&#xA;&quot;Anchor: Text '?' (1240,110,6,11)&quot;]" DesignTimeCacheId="c0b08397-8b95-485d-970d-a3a0ab8fd5fe" DesignTimeScaleFactor="1" DisplayName="CV Click - MinimizeButton" sap:VirtualizedContainerService.HintSize="436,136" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_20" InformativeScreenshot="e99121ff82367106be5dd5cdfb86e9b7" KeyModifiers="None" MouseButton="BTN_LEFT" Version="V5">
               <p:CvClickWithDescriptor.CursorPosition>
                 <ui:CursorPosition Position="Center">
                   <ui:CursorPosition.OffsetX>
@@ -247,21 +252,21 @@
                 </ui:Target>
               </p:CvClickWithDescriptor.Target>
             </p:CvClickWithDescriptor>
-            <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="434,51" sap2010:WorkflowViewState.IdRef="CommentOut_2">
+            <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="436,267" sap2010:WorkflowViewState.IdRef="CommentOut_3">
               <ui:CommentOut.Body>
-                <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="522,1461" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="242,189" sap2010:WorkflowViewState.IdRef="Sequence_11">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <Sequence sap2010:Annotation.AnnotationText="Open Newcon" sap:VirtualizedContainerService.HintSize="480,1369" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                  <Sequence sap2010:Annotation.AnnotationText="Open Newcon" sap:VirtualizedContainerService.HintSize="200,97" sap2010:WorkflowViewState.IdRef="Sequence_7">
                     <Sequence.Variables>
                       <Variable x:TypeArguments="uc:CvString" Default="[&quot;Ci15ro04an99&amp;&quot;]" Name="Password" />
                     </Sequence.Variables>
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
                         <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
                         <x:Boolean x:Key="IsPinned">False</x:Boolean>
                       </scg:Dictionary>
@@ -499,14 +504,8 @@
                   </Sequence>
                 </Sequence>
               </ui:CommentOut.Body>
-              <sap:WorkflowViewStateService.ViewState>
-                <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                </scg:Dictionary>
-              </sap:WorkflowViewStateService.ViewState>
             </ui:CommentOut>
-            <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[dt_Processos]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="434,932" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
+            <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[dt_Processos]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="436,932" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
               <ui:ForEachRow.Body>
                 <ActivityAction x:TypeArguments="sd:DataRow">
                   <ActivityAction.Argument>
@@ -574,7 +573,7 @@
       <p:CVScope.DesignTimeCacheContainer>
         <uc:CvCacheContainer>
           <uc:CvCacheContainer.Caches>
-            <scg:List x:TypeArguments="uc:CVCache" Capacity="7">
+            <scg:List x:TypeArguments="uc:CVCache" Capacity="14">
               <uc:CVCache DisplayName="2" Id="bb47b82e-8dc2-4051-840c-f1aaa5662895" InformativeScreenshot="4a2e1b67e8f0bf420dba365a55a9a122" LogicalPosition="0, 0" OcrText="Intranet Newcon X + wts2ncpcons001p.sicredi.net - X _ X https://consorcio.sicredi.com.br/CONAT/frmConAtSrcConsorciado.aspx + ... R Sicredi Pagina Inicial Venda Grupo Cobranca Contemplacao Credito Encerramento Sistema Atendimento Atendimento a Clientes Identificar Consorciado Voltag Operacoes Identificacao do Consorciado Posicao do Consorciado Grupo Cota Amortizacao FGTS Bloqueio de Contempla... Consorciado: 000000 0000 00 Consulta de Garantido... Consulta Remessas Busca avancada... Localizar Cancelar Consulta Valores a De... Correspondencias Cotas do Cliente Informe a cota. Dados cadastrais Debito em Conta Demonstrativo do Grupo Documentos Digitaliza.. Emissao de Cobranca Hist do Tipo de Cota Historico de Transfer... Impressos Imprimir Extrato Informar Votacao AGE Negociacao Oferta de Lance D 4) Outras Cobrancas POR Pagamentos Realizados PTB2 Perc. Cobrar Contempl... Plano de Cobranca 12:19 Resultado de Assemble... 28/06/2022" Position="0, 0" ScreenshotGuid="cc5c6b74-1935-4d74-bfc0-248508acdd91" ServerVersion="1">
                 <uc:CVCache.CvAnchorRelations>
                   <scg:List x:TypeArguments="uc:AnchorRelationInfo" Capacity="4">
@@ -2046,7 +2045,7 @@
                   </scg:List>
                 </uc:CVCache.OcrTexts>
               </uc:CVCache>
-              <uc:CVCache DisplayName="Screen CV Click - 'CICERO TEST" Id="fc366215-e1a3-4d40-be76-f71cca60abce" InformativeScreenshot="ef1c8f06237e57dfbb1a484ceeb91113" LogicalPosition="0, 0" OcrText="NewCon wts2ncpcons00.. - X _ X Nev CON lote X Venda Grupo File Home Share View v ? Cor v &lt;&lt; sup_planejamento_controle tecnica_produtos CFP 2.I 3. Termo de Liberacao 4. AG ASSINATURAS &gt; lote &gt; Search lote Documents ^ Name Date modified Type Size Credito Pictures 1. GERAR TERMO 28/06/2022 12:46 File folder v Concessao de 0 16. Manuais 2.PRONTOS PARA ASSINAR 28/06/2022 13:25 File folder v Cadastro d 3.Documentc 3. ASSINADOS 28/06/2022 13:25 File folder v Analise de lote 4. ENVIADOS 27/06/2022 18:03 File folder Garan Excel envios C CICERO TESTE AUT 01/07/2022 14:50 File folder Ficha Copia lFORMALISTICA_IM_quitados_p... 03/06/2022 13:40 Microsoft Excel W... 22 KB 1. Mapeamento Analis FORMALISTICA_IM_quitados_para_desali... 25/05/2022 15:24 Microsoft Excel W... 31 KB 070011-0311 Consu X matriculas solicitadas para coop 18/05/2022 18:56 Microsoft Excel W... 46 KB Manuais Finaliza Quitados Desalienar 21/06/2022 16:00 Microsoft Excel W... 46 KB Revisa Analis This PC Analis Desktop Tipo d Documents Substi Downloads Integra Music Contro Pictures v Liberacao Videos &gt; Proces Local Disk (C:) Consu Check Network Docun nas01 4) Aprova POR 9 items 1 item selected PTB2 14:50 01/07/2022" Position="0, 0" ScreenshotGuid="ae7ef16f-7a64-4222-ba8a-be5b8ef4c527" ServerVersion="1">
+              <uc:CVCache DisplayName="Screen CV Click - 'CICERO TEST" Id="fc366215-e1a3-4d40-be76-f71cca60abce" InformativeScreenshot="ef1c8f06237e57dfbb1a484ceeb91113" LogicalPosition="-1366, 0" OcrText="NewCon wts2ncpcons00.. - X _ X Nev CON lote X Venda Grupo File Home Share View v ? Cor v &lt;&lt; sup_planejamento_controle tecnica_produtos CFP 2.I 3. Termo de Liberacao 4. AG ASSINATURAS &gt; lote &gt; Search lote Documents ^ Name Date modified Type Size Credito Pictures 1. GERAR TERMO 28/06/2022 12:46 File folder v Concessao de 0 16. Manuais 2.PRONTOS PARA ASSINAR 28/06/2022 13:25 File folder v Cadastro d 3.Documentc 3. ASSINADOS 28/06/2022 13:25 File folder v Analise de lote 4. ENVIADOS 27/06/2022 18:03 File folder Garan Excel envios C CICERO TESTE AUT 01/07/2022 14:50 File folder Ficha Copia lFORMALISTICA_IM_quitados_p... 03/06/2022 13:40 Microsoft Excel W... 22 KB 1. Mapeamento Analis FORMALISTICA_IM_quitados_para_desali... 25/05/2022 15:24 Microsoft Excel W... 31 KB 070011-0311 Consu X matriculas solicitadas para coop 18/05/2022 18:56 Microsoft Excel W... 46 KB Manuais Finaliza Quitados Desalienar 21/06/2022 16:00 Microsoft Excel W... 46 KB Revisa Analis This PC Analis Desktop Tipo d Documents Substi Downloads Integra Music Contro Pictures v Liberacao Videos &gt; Proces Local Disk (C:) Consu Check Network Docun nas01 4) Aprova POR 9 items 1 item selected PTB2 14:50 01/07/2022" Position="-1366, 0" ScreenshotGuid="ae7ef16f-7a64-4222-ba8a-be5b8ef4c527" ServerVersion="1">
                 <uc:CVCache.CvAnchorRelations>
                   <scg:List x:TypeArguments="uc:AnchorRelationInfo" Capacity="4">
                     <uc:AnchorRelationInfo Target="53">
