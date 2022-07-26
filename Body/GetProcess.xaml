@@ -1,10 +1,10 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="test1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:p="http://schemas.uipath.com/workflow/activities/cv" xmlns:p1="http://schemas.uipath.com/workflow/activities/ocr" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing" xmlns:uc="clr-namespace:UiPath.CV;assembly=UiPath.CV" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="test1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:p="http://schemas.uipath.com/workflow/activities/cv" xmlns:p1="http://schemas.uipath.com/workflow/activities/ocr" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing" xmlns:uc="clr-namespace:UiPath.CV;assembly=UiPath.CV" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <x:Members>
     <x:Property Name="Grupo" Type="InOutArgument(x:String)" />
     <x:Property Name="Cota" Type="InOutArgument(x:String)" />
     <x:Property Name="Processo" Type="InOutArgument(x:String)" />
   </x:Members>
-  <sap:VirtualizedContainerService.HintSize>648,2752</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>722,3931</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="38">
@@ -90,16 +90,17 @@
       <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
       <AssemblyReference>UiPath.Excel</AssemblyReference>
       <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:Annotation.AnnotationText="processo realizado pela wts" sap:VirtualizedContainerService.HintSize="512,2687" sap2010:WorkflowViewState.IdRef="Sequence_2">
+  <Sequence sap2010:Annotation.AnnotationText="processo realizado pela wts" sap:VirtualizedContainerService.HintSize="510,3866" sap2010:WorkflowViewState.IdRef="Sequence_2">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <p:CVScope ContinueOnError="{x:Null}" DelayBefore="{x:Null}" Server="{x:Null}" CvMethod="ElementDetection, OCR" DesignTimeCacheId="bb47b82e-8dc2-4051-840c-f1aaa5662895" DisplayName="CV Screen Scope" sap:VirtualizedContainerService.HintSize="470,2564" sap2010:WorkflowViewState.IdRef="CVScope_3" Version="V5">
+    <p:CVScope ContinueOnError="{x:Null}" DelayBefore="{x:Null}" Server="{x:Null}" CvMethod="ElementDetection, OCR" DesignTimeCacheId="bb47b82e-8dc2-4051-840c-f1aaa5662895" DisplayName="CV Screen Scope" sap:VirtualizedContainerService.HintSize="468,3743" sap2010:WorkflowViewState.IdRef="CVScope_3" Version="V5">
       <p:CVScope.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
@@ -109,8 +110,8 @@
             <Sequence.Variables>
               <Variable x:TypeArguments="sd:DataTable" Name="dt_Processos" />
             </Sequence.Variables>
-            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="436,91" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Trace" Message="[&quot;Adquirindo Cotas&quot;]" />
-            <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: Icon (1320,133,29,25)&quot;]" DesignTimeCacheId="bb47b82e-8dc2-4051-840c-f1aaa5662895" DesignTimeScaleFactor="1" DisplayName="CV Click - Icon" sap:VirtualizedContainerService.HintSize="436,136" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_9" InformativeScreenshot="de4f0592d580362941f47b30c5b2277a" KeyModifiers="None" MouseButton="BTN_LEFT" Version="V5">
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="434,91" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Trace" Message="[&quot;Adquirindo Cotas&quot;]" />
+            <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: Icon (1320,133,29,25)&quot;]" DesignTimeCacheId="bb47b82e-8dc2-4051-840c-f1aaa5662895" DesignTimeScaleFactor="1" DisplayName="CV Click - Icon" sap:VirtualizedContainerService.HintSize="434,136" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_9" InformativeScreenshot="de4f0592d580362941f47b30c5b2277a" KeyModifiers="None" MouseButton="BTN_LEFT" Version="V5">
               <p:CvClickWithDescriptor.CursorPosition>
                 <ui:CursorPosition Position="Center">
                   <ui:CursorPosition.OffsetX>
@@ -139,7 +140,7 @@
                 </ui:Target>
               </p:CvClickWithDescriptor.Target>
             </p:CvClickWithDescriptor>
-            <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: Text 'lote' (183,354,22,11)&quot; +&#xA;&quot;Anchor: Text '1.' (183,401,11,12)&quot; +&#xA;&quot;Anchor: Text 'Excel envios C' (183,377,69,12)&quot;]" DesignTimeCacheId="626bd549-2631-428e-a05e-220abf76b508" DesignTimeScaleFactor="1" DisplayName="CV Click - Text" sap:VirtualizedContainerService.HintSize="436,136" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_13" InformativeScreenshot="c813354f4711580e777d11ae17b91432" KeyModifiers="None" MouseButton="BTN_LEFT" Version="V5">
+            <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: Text 'lote' (183,354,22,11)&quot; +&#xA;&quot;Anchor: Text '1.' (183,401,11,12)&quot; +&#xA;&quot;Anchor: Text 'Excel envios C' (183,377,69,12)&quot;]" DesignTimeCacheId="626bd549-2631-428e-a05e-220abf76b508" DesignTimeScaleFactor="1" DisplayName="CV Click - Text" sap:VirtualizedContainerService.HintSize="434,136" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_13" InformativeScreenshot="c813354f4711580e777d11ae17b91432" KeyModifiers="None" MouseButton="BTN_LEFT" Version="V5">
               <p:CvClickWithDescriptor.CursorPosition>
                 <ui:CursorPosition Position="Center">
                   <ui:CursorPosition.OffsetX>
@@ -174,7 +175,7 @@
                 </ui:Target>
               </p:CvClickWithDescriptor.Target>
             </p:CvClickWithDescriptor>
-            <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_DOUBLE" Descriptor="[&quot;Target: Text 'ASSINADOS' (339,241,66,12)&quot; +&#xD;&#xA;&quot;Anchor: Text 'Name' (308,170,33,12)&quot;]" DesignTimeCacheId="fc366215-e1a3-4d40-be76-f71cca60abce" DesignTimeScaleFactor="1" DisplayName="CV Click - Text" sap:VirtualizedContainerService.HintSize="436,136" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_10" InformativeScreenshot="9028a0aa0a11c203b5d7b1a11b52dcd8" KeyModifiers="None" MouseButton="BTN_LEFT" Version="V5">
+            <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_DOUBLE" Descriptor="[&quot;Target: Text 'ASSINADOS' (339,241,66,12)&quot; +&#xA;&quot;Anchor: Text 'Name' (308,170,33,12)&quot;]" DesignTimeCacheId="fc366215-e1a3-4d40-be76-f71cca60abce" DesignTimeScaleFactor="1" DisplayName="CV Click - Text" sap:VirtualizedContainerService.HintSize="434,136" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_10" InformativeScreenshot="9028a0aa0a11c203b5d7b1a11b52dcd8" KeyModifiers="None" MouseButton="BTN_LEFT" Version="V5">
               <p:CvClickWithDescriptor.CursorPosition>
                 <ui:CursorPosition Position="Center">
                   <ui:CursorPosition.OffsetX>
@@ -208,7 +209,7 @@
                 </ui:Target>
               </p:CvClickWithDescriptor.Target>
             </p:CvClickWithDescriptor>
-            <p:CvExtractDataTableWithDescriptor InRegion="{x:Null}" AddHeaders="True" DelayScreenshotAfterScroll="250" Descriptor="[&quot;Target: Table (291,160,592,390)&quot;]" DesignTimeCacheId="c0b08397-8b95-485d-970d-a3a0ab8fd5fe" DesignTimeScaleFactor="1" DisplayName="CV Extract Table - Table" sap:VirtualizedContainerService.HintSize="436,136" sap2010:WorkflowViewState.IdRef="CvExtractDataTableWithDescriptor_2" IgnoreEmptyRows="False" InformativeScreenshot="3daf9decf1fc86a2a0d2473142e57779" MaxTableScrollHeightInPixels="30000" RefreshBefore="True" Result="[dt_Processos]" Scroll="False" Version="V5">
+            <p:CvExtractDataTableWithDescriptor InRegion="{x:Null}" AddHeaders="True" DelayScreenshotAfterScroll="250" Descriptor="[&quot;Target: Table (291,160,592,390)&quot;]" DesignTimeCacheId="c0b08397-8b95-485d-970d-a3a0ab8fd5fe" DesignTimeScaleFactor="1" DisplayName="CV Extract Table - Table" sap:VirtualizedContainerService.HintSize="434,136" sap2010:WorkflowViewState.IdRef="CvExtractDataTableWithDescriptor_2" IgnoreEmptyRows="False" InformativeScreenshot="3daf9decf1fc86a2a0d2473142e57779" MaxTableScrollHeightInPixels="30000" RefreshBefore="True" Result="[dt_Processos]" Scroll="False" Version="V5">
               <p:CvExtractDataTableWithDescriptor.DesignTimeDescriptor>
                 <uc:CvDescriptor Id="2a84ebc1-fb2f-4b27-bfba-e7555e74d691">
                   <uc:CvDescriptor.Target>
@@ -217,8 +218,8 @@
                 </uc:CvDescriptor>
               </p:CvExtractDataTableWithDescriptor.DesignTimeDescriptor>
             </p:CvExtractDataTableWithDescriptor>
-            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="436,91" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Trace" Message="[&quot;Cotas Adquiridas&quot;]" />
-            <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: MinimizeButton (1129,81,21,17)&quot; +&#xA;&quot;Anchor: Text '?' (1240,110,6,11)&quot;]" DesignTimeCacheId="c0b08397-8b95-485d-970d-a3a0ab8fd5fe" DesignTimeScaleFactor="1" DisplayName="CV Click - MinimizeButton" sap:VirtualizedContainerService.HintSize="436,136" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_20" InformativeScreenshot="e99121ff82367106be5dd5cdfb86e9b7" KeyModifiers="None" MouseButton="BTN_LEFT" Version="V5">
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="434,91" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Trace" Message="[&quot;Cotas Adquiridas&quot;]" />
+            <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: MinimizeButton (1129,81,21,17)&quot; +&#xA;&quot;Anchor: Text '?' (1240,110,6,11)&quot;]" DesignTimeCacheId="c0b08397-8b95-485d-970d-a3a0ab8fd5fe" DesignTimeScaleFactor="1" DisplayName="CV Click - MinimizeButton" sap:VirtualizedContainerService.HintSize="434,136" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_20" InformativeScreenshot="e99121ff82367106be5dd5cdfb86e9b7" KeyModifiers="None" MouseButton="BTN_LEFT" Version="V5">
               <p:CvClickWithDescriptor.CursorPosition>
                 <ui:CursorPosition Position="Center">
                   <ui:CursorPosition.OffsetX>
@@ -252,266 +253,176 @@
                 </ui:Target>
               </p:CvClickWithDescriptor.Target>
             </p:CvClickWithDescriptor>
-            <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="436,267" sap2010:WorkflowViewState.IdRef="CommentOut_3">
-              <ui:CommentOut.Body>
-                <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="242,189" sap2010:WorkflowViewState.IdRef="Sequence_11">
-                  <sap:WorkflowViewStateService.ViewState>
-                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                    </scg:Dictionary>
-                  </sap:WorkflowViewStateService.ViewState>
-                  <Sequence sap2010:Annotation.AnnotationText="Open Newcon" sap:VirtualizedContainerService.HintSize="200,97" sap2010:WorkflowViewState.IdRef="Sequence_7">
-                    <Sequence.Variables>
-                      <Variable x:TypeArguments="uc:CvString" Default="[&quot;Ci15ro04an99&amp;&quot;]" Name="Password" />
-                    </Sequence.Variables>
-                    <sap:WorkflowViewStateService.ViewState>
-                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                        <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
-                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                      </scg:Dictionary>
-                    </sap:WorkflowViewStateService.ViewState>
-                    <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: Icon (1320,224,29,30)&quot;]" DesignTimeCacheId="bb47b82e-8dc2-4051-840c-f1aaa5662895" DesignTimeScaleFactor="1" DisplayName="CV Click - Icon" sap:VirtualizedContainerService.HintSize="438,136" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_14" InformativeScreenshot="43bd8736fd75bc62b046f41fd1301e0d" KeyModifiers="None" MouseButton="BTN_LEFT" Version="V5">
-                      <p:CvClickWithDescriptor.CursorPosition>
-                        <ui:CursorPosition Position="Center">
-                          <ui:CursorPosition.OffsetX>
-                            <InArgument x:TypeArguments="x:Int32" />
-                          </ui:CursorPosition.OffsetX>
-                          <ui:CursorPosition.OffsetY>
-                            <InArgument x:TypeArguments="x:Int32" />
-                          </ui:CursorPosition.OffsetY>
-                        </ui:CursorPosition>
-                      </p:CvClickWithDescriptor.CursorPosition>
-                      <p:CvClickWithDescriptor.DesignTimeDescriptor>
-                        <uc:CvDescriptor Id="3bb02ae3-9593-4272-818d-e156ff01b215">
-                          <uc:CvDescriptor.Target>
-                            <uc:CvElementDescriptor CellExtraInfo="{x:Null}" DesignTimeArea="1320, 224, 29, 30" ElementType="Icon" ImageBase64="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" />
-                          </uc:CvDescriptor.Target>
-                        </uc:CvDescriptor>
-                      </p:CvClickWithDescriptor.DesignTimeDescriptor>
-                      <p:CvClickWithDescriptor.Target>
-                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="37c26f43-6007-4082-8edb-8e1d74769ff3">
-                          <ui:Target.TimeoutMS>
-                            <InArgument x:TypeArguments="x:Int32" />
-                          </ui:Target.TimeoutMS>
-                          <ui:Target.WaitForReady>
-                            <InArgument x:TypeArguments="ui:WaitForReady" />
-                          </ui:Target.WaitForReady>
-                        </ui:Target>
-                      </p:CvClickWithDescriptor.Target>
-                    </p:CvClickWithDescriptor>
-                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="438,91" sap2010:WorkflowViewState.IdRef="LogMessage_5" Level="Trace" Message="[&quot;Iniciando Newcon&quot;]" />
-                    <p:CvTypeIntoWithDescriptor DeselectAfter="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" ClickBeforeTyping="True" Descriptor="[&quot;Target: InputBox (708,343,324,43)&quot; +&#xA;&quot;Anchor: Text 'Senha' (725,357,41,13)&quot;]" DesignTimeCacheId="f2b7f8e4-37ac-489f-85c8-d09e0a7630cc" DesignTimeScaleFactor="1" DisplayName="CV Type Into - InputBox" EmptyField="True" sap:VirtualizedContainerService.HintSize="438,184" sap2010:WorkflowViewState.IdRef="CvTypeIntoWithDescriptor_1" InformativeScreenshot="8970649283c5b2d17d4f9c1603922217" Text="[Password]" Version="V5">
-                      <p:CvTypeIntoWithDescriptor.DesignTimeDescriptor>
-                        <uc:CvDescriptor Id="6b5d4fab-514f-41b5-8eab-e3cd5319cc65">
-                          <uc:CvDescriptor.Anchors>
-                            <x:Array Type="uc:CvElementDescriptor">
-                              <uc:CvElementDescriptor CellExtraInfo="{x:Null}" DesignTimeArea="725, 357, 41, 13" ElementType="Text" Text="Senha" />
-                            </x:Array>
-                          </uc:CvDescriptor.Anchors>
-                          <uc:CvDescriptor.Target>
-                            <uc:CvElementDescriptor CellExtraInfo="{x:Null}" DesignTimeArea="708, 343, 324, 43" ElementType="InputBox" />
-                          </uc:CvDescriptor.Target>
-                        </uc:CvDescriptor>
-                      </p:CvTypeIntoWithDescriptor.DesignTimeDescriptor>
-                      <p:CvTypeIntoWithDescriptor.Target>
-                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="2e4df2d5-75da-417f-98db-fa4265f0eb0f">
-                          <ui:Target.TimeoutMS>
-                            <InArgument x:TypeArguments="x:Int32" />
-                          </ui:Target.TimeoutMS>
-                          <ui:Target.WaitForReady>
-                            <InArgument x:TypeArguments="ui:WaitForReady" />
-                          </ui:Target.WaitForReady>
-                        </ui:Target>
-                      </p:CvTypeIntoWithDescriptor.Target>
-                    </p:CvTypeIntoWithDescriptor>
-                    <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: Button (881,399,153,37)&quot; +&#xA;&quot;Anchor: Text 'Entrar' (937,409,42,13)&quot;]" DesignTimeCacheId="f2b7f8e4-37ac-489f-85c8-d09e0a7630cc" DesignTimeScaleFactor="1" DisplayName="CV Click - Button" sap:VirtualizedContainerService.HintSize="438,136" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_15" InformativeScreenshot="0f3e5fae30f94cde9ebafda060b36374" KeyModifiers="None" MouseButton="BTN_LEFT" Version="V5">
-                      <p:CvClickWithDescriptor.CursorPosition>
-                        <ui:CursorPosition Position="Center">
-                          <ui:CursorPosition.OffsetX>
-                            <InArgument x:TypeArguments="x:Int32" />
-                          </ui:CursorPosition.OffsetX>
-                          <ui:CursorPosition.OffsetY>
-                            <InArgument x:TypeArguments="x:Int32" />
-                          </ui:CursorPosition.OffsetY>
-                        </ui:CursorPosition>
-                      </p:CvClickWithDescriptor.CursorPosition>
-                      <p:CvClickWithDescriptor.DesignTimeDescriptor>
-                        <uc:CvDescriptor Id="97987eba-b105-43e2-9bb2-7cd7ad802afb">
-                          <uc:CvDescriptor.Anchors>
-                            <x:Array Type="uc:CvElementDescriptor">
-                              <uc:CvElementDescriptor CellExtraInfo="{x:Null}" DesignTimeArea="937, 409, 42, 13" ElementType="Text" Text="Entrar" />
-                            </x:Array>
-                          </uc:CvDescriptor.Anchors>
-                          <uc:CvDescriptor.Target>
-                            <uc:CvElementDescriptor CellExtraInfo="{x:Null}" DesignTimeArea="881, 399, 153, 37" ElementType="Button" />
-                          </uc:CvDescriptor.Target>
-                        </uc:CvDescriptor>
-                      </p:CvClickWithDescriptor.DesignTimeDescriptor>
-                      <p:CvClickWithDescriptor.Target>
-                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="a85352c5-dd16-4351-88c8-ee6ee4290b84">
-                          <ui:Target.TimeoutMS>
-                            <InArgument x:TypeArguments="x:Int32" />
-                          </ui:Target.TimeoutMS>
-                          <ui:Target.WaitForReady>
-                            <InArgument x:TypeArguments="ui:WaitForReady" />
-                          </ui:Target.WaitForReady>
-                        </ui:Target>
-                      </p:CvClickWithDescriptor.Target>
-                    </p:CvClickWithDescriptor>
-                    <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: Icon (346,198,80,71)&quot;]" DesignTimeCacheId="0469134a-8475-4b71-8d27-55a41f928af8" DesignTimeScaleFactor="1" DisplayName="CV Click - Icon" sap:VirtualizedContainerService.HintSize="438,136" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_16" InformativeScreenshot="91a0eb0bb1849a1e0a1eea297dc047f4" KeyModifiers="None" MouseButton="BTN_LEFT" Version="V5">
-                      <p:CvClickWithDescriptor.CursorPosition>
-                        <ui:CursorPosition Position="Center">
-                          <ui:CursorPosition.OffsetX>
-                            <InArgument x:TypeArguments="x:Int32" />
-                          </ui:CursorPosition.OffsetX>
-                          <ui:CursorPosition.OffsetY>
-                            <InArgument x:TypeArguments="x:Int32" />
-                          </ui:CursorPosition.OffsetY>
-                        </ui:CursorPosition>
-                      </p:CvClickWithDescriptor.CursorPosition>
-                      <p:CvClickWithDescriptor.DesignTimeDescriptor>
-                        <uc:CvDescriptor Id="a54c34d8-9d15-4781-bccc-a5e6bcb57b76">
-                          <uc:CvDescriptor.Target>
-                            <uc:CvElementDescriptor CellExtraInfo="{x:Null}" DesignTimeArea="346, 198, 80, 71" ElementType="Icon" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAFAAAABHCAYAAACQwsCOAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwwAADsMBx2+oZAAAB0dJREFUeF7tnDFsHEUUhp0KUVmiCYImdEg0QWmgjEQTRANdJKoIGuhSUCGqiJLKokCuLDuFZSsScCFS5MQFOEhJDFEUQwQcRopsRYlyinCwAoRlvr2b+PndzOzs7uzm7NyTfvl2d2Zu5ts382Zm9zzxwvw32X7XwcVOYxoDrKkxwJoaA6ypMcCaSgbwuZkz2TOzi6OpubQ6OJcQ4ORsJzu00Mku3rqd/Xz3/khqrddLqreXVvogUwF8Zf5c9uDBX9nTYidWVtMDvNPbGhS//+34GGA9awXgo0f/ZUsbvdHQZlVtZqtmzNPWCsA721t5BDzwxQhEZ9PYKpqYXswOd5YGLdqx1gBy/cWZc0N52hYNraJJA+moibjaxgAjNQY4kAYTqz0HkLSUhxi7+OtKV1YajNWkWVH0Zb5LrC52ru8RgJRxwCwFSXvky+Xs9a8vZO+e/z5746vlJBA1GBqPXjafXzNB4lhnJTtuQOl0ewIgnkb+T67czC7dup9Pf6ydMJXnuitfGe0A6UMB1mJ3M9vc3h58U5atmClL7oXCE0caIOeB8+HKD3labR3TQDYoYjy4SBbeYfOXcrWB8ajxRAtlTwAE3scGnsvwQrpxiu6LaCxdtdvb8ThpU2trQ/BGGiDw6J4+O7X6U5Kui6gf3ZJdFJcB9VAOaze8kQVo0/t2b9bvPsy3x5J5n7kReJjPPhAwtJIDBIYPiAb45/a/j/PI9DTo8+t/DFINW6rAgagbkdxn/cDhhoeSAqQyjEs0UHqHDyAbrFyTAAkKb3YuDFIMG3lSwUN8X2djOGhY6wcONzyUFCANW/itm03f+H1XI30A9RwOkDTou0CDuEGksXnqiDqGxtnpta6361olAwgI2xWmru4e4F0ANWTEMVMWn02tpQ0cjKOMpy7rmfkfk2hX4JBKCtB6zmeXbwYBEhw45rxMkzdoy90gAo4rcOjjWFE/6umzkwbARIH3oSQAqcz7314bZC0GyNxOexLHeJjP8Eydhy7Pck4HoSJRnyPzy7tWNNJWN3v91UaB96HaAB97jugKPoB4Hk/AaLBsNNcZ23wNwrNJI/MwDgKPpZ0GWyTSu1Yb1uQTtSLVBujyHK8Hmm74DpVTDQbGxV9vD3IPG1FZ5gEkebgZN+5tD5UXEmmpg8/musWBQ6oWQBrh8hwXQHZQPr1yLf8syyBdKBKevr4+BIhjG2wuGYj6uk/W8wHvstjAIVUboMtzNEBEN5ddEAGT89177iVUKNjgzVgZgKRjCeizU6s7jY5VZYDA83mOC6BLRQ36yAQmXQ7HTIGsxQIE/KsLZ73LQ9bBBI0y3ocqA6RCVzfcnhMDkPyhSEg34yZJr6VM5poyTyxA0pz+ZX2Qa9jY/yvrfagSwKKxJAYg188EAocr2HDMUk5aDECuhwIHEbkKPPREAHKNKYjP8BSdn2PXkFEEkHriyb7e8vfDf/IAV7brWrUOkK4byssYRdcmnc1Dej3XtFYEkGuMpT6zddVgYtU6QM7zbMNnro3SEIQQQG6CncC7TO4rajCxahVgUYMoz5Yt8/E0zhetQwA5LyO2NoYRm1eDiVVrAEnPOba7fOYKHIhzPq/1AeRcaKM0DxwinwYTq9YAclwYCR0gbN4yAKkb3s462WVMg/QDKQ0mVq0AtA3yRUJXg6TKAuS47L6iBhOrVgDyORQJi56wcS0WIDdBLvW0sd9oA4f8Dg0mVo0DpKKxkVB/j1UZgHwuu6+INJhYNQ6Qv6FIyOTY1SAprscA5CaEAgf7ikyqdflIg4lVowBRqEHs5PgaJBULkLL0Uk8adXl2xv0dGkysGgVIg0JP2GhQqOtaxQBE753/cXB22FwPsaQ0mFg1BpD3nlM9YSsCyET7pdmz3idsjL96X1FLg4lVIwCJqs+bRvsiIefJH+N9qAjgxPRcftN8xgwAyK6yrTSYWDUCkAqHNkp9kdCnEEDeKsC7fPuKTKYZSqivq2wrDSZWjQBk3PNNW2wkLGqQVAggD5VCgeMtsd4NSYOJVSMAQ8YTtpjIKxUCGDLXAymfNJhYtQqwKBL6VAUgPYBnILHjrAYTq9YAxkRCn6oAdL39EJIGE6tWADLAy703WY489qksQLbMuFGx5SMNJla1APrmXdKIgvrNAkQD8Uh5zqfQhqo0vBzQ1K2sp2swsaoEEFFJ5l7cbR4CaXGN/T/SuTyPBjImApFjeV2LoENZPMVzfRflMDWiLL6rqDyXNJhYVQaIqGxIvm7ENeaKdG2OYxpMWbp8rbJeJ6XBxKoWwCqikXa/rgzApqXBxKp1gHiKXXYBkXNjgJHC++TbXGOAJYX3yRcbASjHsCcq09gq4hfr/MJJW3KAVFK/zoEnEllHQfywsJq6+f9N0JYUoI3GVdbOe9WSA2SORpd9WmwMsKY18p+LfK/y7kdrJArzEIl1MX9HTfwmLpWOGfGyuv2dSTKAeOLIavB+dCrJH+kkAzjKso1tQmOAtdTJ/gdX6cwtMbTBBwAAAABJRU5ErkJggg==" />
-                          </uc:CvDescriptor.Target>
-                        </uc:CvDescriptor>
-                      </p:CvClickWithDescriptor.DesignTimeDescriptor>
-                      <p:CvClickWithDescriptor.Target>
-                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="e00dec6d-4acb-4ba6-9bea-b2716664dd88">
-                          <ui:Target.TimeoutMS>
-                            <InArgument x:TypeArguments="x:Int32" />
-                          </ui:Target.TimeoutMS>
-                          <ui:Target.WaitForReady>
-                            <InArgument x:TypeArguments="ui:WaitForReady" />
-                          </ui:Target.WaitForReady>
-                        </ui:Target>
-                      </p:CvClickWithDescriptor.Target>
-                    </p:CvClickWithDescriptor>
-                    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="438,363" sap2010:WorkflowViewState.IdRef="TryCatch_1">
-                      <TryCatch.Try>
-                        <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: Text 'Credito' (460,96,43,13)&quot;]" DesignTimeCacheId="ef971b7a-6e31-4d40-9ad4-810b20247d7d" DesignTimeScaleFactor="1" DisplayName="CV Click - Text" sap:VirtualizedContainerService.HintSize="334,136" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_17" InformativeScreenshot="f83311da24551c686542a411bddcb7c6" KeyModifiers="None" MouseButton="BTN_LEFT" Version="V5">
-                          <p:CvClickWithDescriptor.CursorPosition>
-                            <ui:CursorPosition Position="Center">
-                              <ui:CursorPosition.OffsetX>
-                                <InArgument x:TypeArguments="x:Int32" />
-                              </ui:CursorPosition.OffsetX>
-                              <ui:CursorPosition.OffsetY>
-                                <InArgument x:TypeArguments="x:Int32" />
-                              </ui:CursorPosition.OffsetY>
-                            </ui:CursorPosition>
-                          </p:CvClickWithDescriptor.CursorPosition>
-                          <p:CvClickWithDescriptor.DesignTimeDescriptor>
-                            <uc:CvDescriptor Id="96617732-5fce-4e59-8ea6-c68e9e06b9cd">
-                              <uc:CvDescriptor.Target>
-                                <uc:CvElementDescriptor CellExtraInfo="{x:Null}" DesignTimeArea="460, 96, 43, 13" ElementType="Text" Text="Credito" />
-                              </uc:CvDescriptor.Target>
-                            </uc:CvDescriptor>
-                          </p:CvClickWithDescriptor.DesignTimeDescriptor>
-                          <p:CvClickWithDescriptor.Target>
-                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="9c222873-5ff3-4458-82a7-c1f6d809ddd6">
-                              <ui:Target.TimeoutMS>
-                                <InArgument x:TypeArguments="x:Int32" />
-                              </ui:Target.TimeoutMS>
-                              <ui:Target.WaitForReady>
-                                <InArgument x:TypeArguments="ui:WaitForReady" />
-                              </ui:Target.WaitForReady>
-                            </ui:Target>
-                          </p:CvClickWithDescriptor.Target>
-                        </p:CvClickWithDescriptor>
-                      </TryCatch.Try>
-                      <TryCatch.Catches>
-                        <Catch x:TypeArguments="uc:ElementNotFoundException" sap:VirtualizedContainerService.HintSize="404,21" sap2010:WorkflowViewState.IdRef="Catch`1_1">
-                          <sap:WorkflowViewStateService.ViewState>
-                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                            </scg:Dictionary>
-                          </sap:WorkflowViewStateService.ViewState>
-                          <ActivityAction x:TypeArguments="uc:ElementNotFoundException">
-                            <ActivityAction.Argument>
-                              <DelegateInArgument x:TypeArguments="uc:ElementNotFoundException" Name="exception" />
-                            </ActivityAction.Argument>
-                            <Sequence sap:VirtualizedContainerService.HintSize="376,404" sap2010:WorkflowViewState.IdRef="Sequence_9">
-                              <sap:WorkflowViewStateService.ViewState>
-                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                </scg:Dictionary>
-                              </sap:WorkflowViewStateService.ViewState>
-                              <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: Icon (346,198,80,71)&quot;]" DesignTimeCacheId="0469134a-8475-4b71-8d27-55a41f928af8" DesignTimeScaleFactor="1" DisplayName="CV Click - Icon" sap:VirtualizedContainerService.HintSize="334,136" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_18" InformativeScreenshot="91a0eb0bb1849a1e0a1eea297dc047f4" KeyModifiers="None" MouseButton="BTN_LEFT" Version="V5">
-                                <p:CvClickWithDescriptor.CursorPosition>
-                                  <ui:CursorPosition Position="Center">
-                                    <ui:CursorPosition.OffsetX>
-                                      <InArgument x:TypeArguments="x:Int32" />
-                                    </ui:CursorPosition.OffsetX>
-                                    <ui:CursorPosition.OffsetY>
-                                      <InArgument x:TypeArguments="x:Int32" />
-                                    </ui:CursorPosition.OffsetY>
-                                  </ui:CursorPosition>
-                                </p:CvClickWithDescriptor.CursorPosition>
-                                <p:CvClickWithDescriptor.DesignTimeDescriptor>
-                                  <uc:CvDescriptor Id="a54c34d8-9d15-4781-bccc-a5e6bcb57b76">
-                                    <uc:CvDescriptor.Target>
-                                      <uc:CvElementDescriptor CellExtraInfo="{x:Null}" DesignTimeArea="346, 198, 80, 71" ElementType="Icon" ImageBase64="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" />
-                                    </uc:CvDescriptor.Target>
-                                  </uc:CvDescriptor>
-                                </p:CvClickWithDescriptor.DesignTimeDescriptor>
-                                <p:CvClickWithDescriptor.Target>
-                                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="e00dec6d-4acb-4ba6-9bea-b2716664dd88">
-                                    <ui:Target.TimeoutMS>
-                                      <InArgument x:TypeArguments="x:Int32" />
-                                    </ui:Target.TimeoutMS>
-                                    <ui:Target.WaitForReady>
-                                      <InArgument x:TypeArguments="ui:WaitForReady" />
-                                    </ui:Target.WaitForReady>
-                                  </ui:Target>
-                                </p:CvClickWithDescriptor.Target>
-                              </p:CvClickWithDescriptor>
-                              <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: Text 'Credito' (460,96,43,13)&quot;]" DesignTimeCacheId="ef971b7a-6e31-4d40-9ad4-810b20247d7d" DesignTimeScaleFactor="1" DisplayName="CV Click - Text" sap:VirtualizedContainerService.HintSize="334,136" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_19" InformativeScreenshot="f83311da24551c686542a411bddcb7c6" KeyModifiers="None" MouseButton="BTN_LEFT" Version="V5">
-                                <p:CvClickWithDescriptor.CursorPosition>
-                                  <ui:CursorPosition Position="Center">
-                                    <ui:CursorPosition.OffsetX>
-                                      <InArgument x:TypeArguments="x:Int32" />
-                                    </ui:CursorPosition.OffsetX>
-                                    <ui:CursorPosition.OffsetY>
-                                      <InArgument x:TypeArguments="x:Int32" />
-                                    </ui:CursorPosition.OffsetY>
-                                  </ui:CursorPosition>
-                                </p:CvClickWithDescriptor.CursorPosition>
-                                <p:CvClickWithDescriptor.DesignTimeDescriptor>
-                                  <uc:CvDescriptor Id="96617732-5fce-4e59-8ea6-c68e9e06b9cd">
-                                    <uc:CvDescriptor.Target>
-                                      <uc:CvElementDescriptor CellExtraInfo="{x:Null}" DesignTimeArea="460, 96, 43, 13" ElementType="Text" Text="Credito" />
-                                    </uc:CvDescriptor.Target>
-                                  </uc:CvDescriptor>
-                                </p:CvClickWithDescriptor.DesignTimeDescriptor>
-                                <p:CvClickWithDescriptor.Target>
-                                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="9c222873-5ff3-4458-82a7-c1f6d809ddd6">
-                                    <ui:Target.TimeoutMS>
-                                      <InArgument x:TypeArguments="x:Int32" />
-                                    </ui:Target.TimeoutMS>
-                                    <ui:Target.WaitForReady>
-                                      <InArgument x:TypeArguments="ui:WaitForReady" />
-                                    </ui:Target.WaitForReady>
-                                  </ui:Target>
-                                </p:CvClickWithDescriptor.Target>
-                              </p:CvClickWithDescriptor>
-                            </Sequence>
-                          </ActivityAction>
-                        </Catch>
-                      </TryCatch.Catches>
-                    </TryCatch>
-                  </Sequence>
-                </Sequence>
-              </ui:CommentOut.Body>
-            </ui:CommentOut>
-            <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[dt_Processos]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="436,932" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
+            <Sequence sap2010:Annotation.AnnotationText="Open Newcon" sap:VirtualizedContainerService.HintSize="434,1142" sap2010:WorkflowViewState.IdRef="Sequence_7">
+              <Sequence.Variables>
+                <Variable x:TypeArguments="uc:CvString" Default="[&quot;Ci15ro04an99&amp;&quot;]" Name="Password" />
+              </Sequence.Variables>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: Icon (1320,224,29,30)&quot;]" DesignTimeCacheId="bb47b82e-8dc2-4051-840c-f1aaa5662895" DesignTimeScaleFactor="1" DisplayName="CV Click - Icon" sap:VirtualizedContainerService.HintSize="334,136" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_14" InformativeScreenshot="43bd8736fd75bc62b046f41fd1301e0d" KeyModifiers="None" MouseButton="BTN_LEFT" Version="V5">
+                <p:CvClickWithDescriptor.CursorPosition>
+                  <ui:CursorPosition Position="Center">
+                    <ui:CursorPosition.OffsetX>
+                      <InArgument x:TypeArguments="x:Int32" />
+                    </ui:CursorPosition.OffsetX>
+                    <ui:CursorPosition.OffsetY>
+                      <InArgument x:TypeArguments="x:Int32" />
+                    </ui:CursorPosition.OffsetY>
+                  </ui:CursorPosition>
+                </p:CvClickWithDescriptor.CursorPosition>
+                <p:CvClickWithDescriptor.DesignTimeDescriptor>
+                  <uc:CvDescriptor Id="3bb02ae3-9593-4272-818d-e156ff01b215">
+                    <uc:CvDescriptor.Target>
+                      <uc:CvElementDescriptor CellExtraInfo="{x:Null}" DesignTimeArea="1320, 224, 29, 30" ElementType="Icon" ImageBase64="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" />
+                    </uc:CvDescriptor.Target>
+                  </uc:CvDescriptor>
+                </p:CvClickWithDescriptor.DesignTimeDescriptor>
+                <p:CvClickWithDescriptor.Target>
+                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="37c26f43-6007-4082-8edb-8e1d74769ff3">
+                    <ui:Target.TimeoutMS>
+                      <InArgument x:TypeArguments="x:Int32" />
+                    </ui:Target.TimeoutMS>
+                    <ui:Target.WaitForReady>
+                      <InArgument x:TypeArguments="ui:WaitForReady" />
+                    </ui:Target.WaitForReady>
+                  </ui:Target>
+                </p:CvClickWithDescriptor.Target>
+              </p:CvClickWithDescriptor>
+              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="334,91" sap2010:WorkflowViewState.IdRef="LogMessage_5" Level="Trace" Message="[&quot;Iniciando Newcon&quot;]" />
+              <p:CvTypeIntoWithDescriptor DeselectAfter="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" ClickBeforeTyping="True" Descriptor="[&quot;Target: InputBox (708,343,324,43)&quot; +&#xA;&quot;Anchor: Text 'Senha' (725,357,41,13)&quot;]" DesignTimeCacheId="f2b7f8e4-37ac-489f-85c8-d09e0a7630cc" DesignTimeScaleFactor="1" DisplayName="CV Type Into - InputBox" EmptyField="True" sap:VirtualizedContainerService.HintSize="334,184" sap2010:WorkflowViewState.IdRef="CvTypeIntoWithDescriptor_1" InformativeScreenshot="8970649283c5b2d17d4f9c1603922217" Text="[Password]" Version="V5">
+                <p:CvTypeIntoWithDescriptor.DesignTimeDescriptor>
+                  <uc:CvDescriptor Id="6b5d4fab-514f-41b5-8eab-e3cd5319cc65">
+                    <uc:CvDescriptor.Anchors>
+                      <x:Array Type="uc:CvElementDescriptor">
+                        <uc:CvElementDescriptor CellExtraInfo="{x:Null}" DesignTimeArea="725, 357, 41, 13" ElementType="Text" Text="Senha" />
+                      </x:Array>
+                    </uc:CvDescriptor.Anchors>
+                    <uc:CvDescriptor.Target>
+                      <uc:CvElementDescriptor CellExtraInfo="{x:Null}" DesignTimeArea="708, 343, 324, 43" ElementType="InputBox" />
+                    </uc:CvDescriptor.Target>
+                  </uc:CvDescriptor>
+                </p:CvTypeIntoWithDescriptor.DesignTimeDescriptor>
+                <p:CvTypeIntoWithDescriptor.Target>
+                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="2e4df2d5-75da-417f-98db-fa4265f0eb0f">
+                    <ui:Target.TimeoutMS>
+                      <InArgument x:TypeArguments="x:Int32" />
+                    </ui:Target.TimeoutMS>
+                    <ui:Target.WaitForReady>
+                      <InArgument x:TypeArguments="ui:WaitForReady" />
+                    </ui:Target.WaitForReady>
+                  </ui:Target>
+                </p:CvTypeIntoWithDescriptor.Target>
+              </p:CvTypeIntoWithDescriptor>
+              <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: Button (881,399,153,37)&quot; +&#xA;&quot;Anchor: Text 'Entrar' (937,409,42,13)&quot;]" DesignTimeCacheId="f2b7f8e4-37ac-489f-85c8-d09e0a7630cc" DesignTimeScaleFactor="1" DisplayName="CV Click - Button" sap:VirtualizedContainerService.HintSize="334,136" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_15" InformativeScreenshot="0f3e5fae30f94cde9ebafda060b36374" KeyModifiers="None" MouseButton="BTN_LEFT" Version="V5">
+                <p:CvClickWithDescriptor.CursorPosition>
+                  <ui:CursorPosition Position="Center">
+                    <ui:CursorPosition.OffsetX>
+                      <InArgument x:TypeArguments="x:Int32" />
+                    </ui:CursorPosition.OffsetX>
+                    <ui:CursorPosition.OffsetY>
+                      <InArgument x:TypeArguments="x:Int32" />
+                    </ui:CursorPosition.OffsetY>
+                  </ui:CursorPosition>
+                </p:CvClickWithDescriptor.CursorPosition>
+                <p:CvClickWithDescriptor.DesignTimeDescriptor>
+                  <uc:CvDescriptor Id="97987eba-b105-43e2-9bb2-7cd7ad802afb">
+                    <uc:CvDescriptor.Anchors>
+                      <x:Array Type="uc:CvElementDescriptor">
+                        <uc:CvElementDescriptor CellExtraInfo="{x:Null}" DesignTimeArea="937, 409, 42, 13" ElementType="Text" Text="Entrar" />
+                      </x:Array>
+                    </uc:CvDescriptor.Anchors>
+                    <uc:CvDescriptor.Target>
+                      <uc:CvElementDescriptor CellExtraInfo="{x:Null}" DesignTimeArea="881, 399, 153, 37" ElementType="Button" />
+                    </uc:CvDescriptor.Target>
+                  </uc:CvDescriptor>
+                </p:CvClickWithDescriptor.DesignTimeDescriptor>
+                <p:CvClickWithDescriptor.Target>
+                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="a85352c5-dd16-4351-88c8-ee6ee4290b84">
+                    <ui:Target.TimeoutMS>
+                      <InArgument x:TypeArguments="x:Int32" />
+                    </ui:Target.TimeoutMS>
+                    <ui:Target.WaitForReady>
+                      <InArgument x:TypeArguments="ui:WaitForReady" />
+                    </ui:Target.WaitForReady>
+                  </ui:Target>
+                </p:CvClickWithDescriptor.Target>
+              </p:CvClickWithDescriptor>
+              <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: Icon (346,198,80,71)&quot; +&#xD;&#xA;&quot;Anchor: Icon (479,200,75,71)&quot;]" DesignTimeCacheId="0469134a-8475-4b71-8d27-55a41f928af8" DesignTimeScaleFactor="1" DisplayName="CV Click - Icon" sap:VirtualizedContainerService.HintSize="334,136" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_16" InformativeScreenshot="32f041e3ca9027facd66ae2103533fb6" KeyModifiers="None" MouseButton="BTN_LEFT" Version="V5">
+                <p:CvClickWithDescriptor.CursorPosition>
+                  <ui:CursorPosition Position="Center">
+                    <ui:CursorPosition.OffsetX>
+                      <InArgument x:TypeArguments="x:Int32" />
+                    </ui:CursorPosition.OffsetX>
+                    <ui:CursorPosition.OffsetY>
+                      <InArgument x:TypeArguments="x:Int32" />
+                    </ui:CursorPosition.OffsetY>
+                  </ui:CursorPosition>
+                </p:CvClickWithDescriptor.CursorPosition>
+                <p:CvClickWithDescriptor.DesignTimeDescriptor>
+                  <uc:CvDescriptor Id="68689916-b5e3-4088-8907-a41a6f9ad66b">
+                    <uc:CvDescriptor.Anchors>
+                      <x:Array Type="uc:CvElementDescriptor">
+                        <uc:CvElementDescriptor CellExtraInfo="{x:Null}" DesignTimeArea="479, 200, 75, 71" ElementType="Icon" ImageBase64="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" />
+                      </x:Array>
+                    </uc:CvDescriptor.Anchors>
+                    <uc:CvDescriptor.Target>
+                      <uc:CvElementDescriptor CellExtraInfo="{x:Null}" DesignTimeArea="346, 198, 80, 71" ElementType="Icon" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAFAAAABHCAYAAACQwsCOAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwwAADsMBx2+oZAAAB0dJREFUeF7tnDFsHEUUhp0KUVmiCYImdEg0QWmgjEQTRANdJKoIGuhSUCGqiJLKokCuLDuFZSsScCFS5MQFOEhJDFEUQwQcRopsRYlyinCwAoRlvr2b+PndzOzs7uzm7NyTfvl2d2Zu5ts382Zm9zzxwvw32X7XwcVOYxoDrKkxwJoaA6ypMcCaSgbwuZkz2TOzi6OpubQ6OJcQ4ORsJzu00Mku3rqd/Xz3/khqrddLqreXVvogUwF8Zf5c9uDBX9nTYidWVtMDvNPbGhS//+34GGA9awXgo0f/ZUsbvdHQZlVtZqtmzNPWCsA721t5BDzwxQhEZ9PYKpqYXswOd5YGLdqx1gBy/cWZc0N52hYNraJJA+moibjaxgAjNQY4kAYTqz0HkLSUhxi7+OtKV1YajNWkWVH0Zb5LrC52ru8RgJRxwCwFSXvky+Xs9a8vZO+e/z5746vlJBA1GBqPXjafXzNB4lhnJTtuQOl0ewIgnkb+T67czC7dup9Pf6ydMJXnuitfGe0A6UMB1mJ3M9vc3h58U5atmClL7oXCE0caIOeB8+HKD3labR3TQDYoYjy4SBbeYfOXcrWB8ajxRAtlTwAE3scGnsvwQrpxiu6LaCxdtdvb8ThpU2trQ/BGGiDw6J4+O7X6U5Kui6gf3ZJdFJcB9VAOaze8kQVo0/t2b9bvPsy3x5J5n7kReJjPPhAwtJIDBIYPiAb45/a/j/PI9DTo8+t/DFINW6rAgagbkdxn/cDhhoeSAqQyjEs0UHqHDyAbrFyTAAkKb3YuDFIMG3lSwUN8X2djOGhY6wcONzyUFCANW/itm03f+H1XI30A9RwOkDTou0CDuEGksXnqiDqGxtnpta6361olAwgI2xWmru4e4F0ANWTEMVMWn02tpQ0cjKOMpy7rmfkfk2hX4JBKCtB6zmeXbwYBEhw45rxMkzdoy90gAo4rcOjjWFE/6umzkwbARIH3oSQAqcz7314bZC0GyNxOexLHeJjP8Eydhy7Pck4HoSJRnyPzy7tWNNJWN3v91UaB96HaAB97jugKPoB4Hk/AaLBsNNcZ23wNwrNJI/MwDgKPpZ0GWyTSu1Yb1uQTtSLVBujyHK8Hmm74DpVTDQbGxV9vD3IPG1FZ5gEkebgZN+5tD5UXEmmpg8/musWBQ6oWQBrh8hwXQHZQPr1yLf8syyBdKBKevr4+BIhjG2wuGYj6uk/W8wHvstjAIVUboMtzNEBEN5ddEAGT89177iVUKNjgzVgZgKRjCeizU6s7jY5VZYDA83mOC6BLRQ36yAQmXQ7HTIGsxQIE/KsLZ73LQ9bBBI0y3ocqA6RCVzfcnhMDkPyhSEg34yZJr6VM5poyTyxA0pz+ZX2Qa9jY/yvrfagSwKKxJAYg188EAocr2HDMUk5aDECuhwIHEbkKPPREAHKNKYjP8BSdn2PXkFEEkHriyb7e8vfDf/IAV7brWrUOkK4byssYRdcmnc1Dej3XtFYEkGuMpT6zddVgYtU6QM7zbMNnro3SEIQQQG6CncC7TO4rajCxahVgUYMoz5Yt8/E0zhetQwA5LyO2NoYRm1eDiVVrAEnPOba7fOYKHIhzPq/1AeRcaKM0DxwinwYTq9YAclwYCR0gbN4yAKkb3s462WVMg/QDKQ0mVq0AtA3yRUJXg6TKAuS47L6iBhOrVgDyORQJi56wcS0WIDdBLvW0sd9oA4f8Dg0mVo0DpKKxkVB/j1UZgHwuu6+INJhYNQ6Qv6FIyOTY1SAprscA5CaEAgf7ikyqdflIg4lVowBRqEHs5PgaJBULkLL0Uk8adXl2xv0dGkysGgVIg0JP2GhQqOtaxQBE753/cXB22FwPsaQ0mFg1BpD3nlM9YSsCyET7pdmz3idsjL96X1FLg4lVIwCJqs+bRvsiIefJH+N9qAjgxPRcftN8xgwAyK6yrTSYWDUCkAqHNkp9kdCnEEDeKsC7fPuKTKYZSqivq2wrDSZWjQBk3PNNW2wkLGqQVAggD5VCgeMtsd4NSYOJVSMAQ8YTtpjIKxUCGDLXAymfNJhYtQqwKBL6VAUgPYBnILHjrAYTq9YAxkRCn6oAdL39EJIGE6tWADLAy703WY489qksQLbMuFGx5SMNJla1APrmXdKIgvrNAkQD8Uh5zqfQhqo0vBzQ1K2sp2swsaoEEFFJ5l7cbR4CaXGN/T/SuTyPBjImApFjeV2LoENZPMVzfRflMDWiLL6rqDyXNJhYVQaIqGxIvm7ENeaKdG2OYxpMWbp8rbJeJ6XBxKoWwCqikXa/rgzApqXBxKp1gHiKXXYBkXNjgJHC++TbXGOAJYX3yRcbASjHsCcq09gq4hfr/MJJW3KAVFK/zoEnEllHQfywsJq6+f9N0JYUoI3GVdbOe9WSA2SORpd9WmwMsKY18p+LfK/y7kdrJArzEIl1MX9HTfwmLpWOGfGyuv2dSTKAeOLIavB+dCrJH+kkAzjKso1tQmOAtdTJ/gdX6cwtMbTBBwAAAABJRU5ErkJggg==" />
+                    </uc:CvDescriptor.Target>
+                  </uc:CvDescriptor>
+                </p:CvClickWithDescriptor.DesignTimeDescriptor>
+                <p:CvClickWithDescriptor.Target>
+                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="e00dec6d-4acb-4ba6-9bea-b2716664dd88">
+                    <ui:Target.TimeoutMS>
+                      <InArgument x:TypeArguments="x:Int32" />
+                    </ui:Target.TimeoutMS>
+                    <ui:Target.WaitForReady>
+                      <InArgument x:TypeArguments="ui:WaitForReady" />
+                    </ui:Target.WaitForReady>
+                  </ui:Target>
+                </p:CvClickWithDescriptor.Target>
+              </p:CvClickWithDescriptor>
+              <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: Text 'Credito' (460,96,43,13)&quot;]" DesignTimeCacheId="ef971b7a-6e31-4d40-9ad4-810b20247d7d" DesignTimeScaleFactor="1" DisplayName="CV Click - Text" sap:VirtualizedContainerService.HintSize="334,136" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_17" InformativeScreenshot="f83311da24551c686542a411bddcb7c6" KeyModifiers="None" MouseButton="BTN_LEFT" Version="V5">
+                <p:CvClickWithDescriptor.CursorPosition>
+                  <ui:CursorPosition Position="Center">
+                    <ui:CursorPosition.OffsetX>
+                      <InArgument x:TypeArguments="x:Int32" />
+                    </ui:CursorPosition.OffsetX>
+                    <ui:CursorPosition.OffsetY>
+                      <InArgument x:TypeArguments="x:Int32" />
+                    </ui:CursorPosition.OffsetY>
+                  </ui:CursorPosition>
+                </p:CvClickWithDescriptor.CursorPosition>
+                <p:CvClickWithDescriptor.DesignTimeDescriptor>
+                  <uc:CvDescriptor Id="96617732-5fce-4e59-8ea6-c68e9e06b9cd">
+                    <uc:CvDescriptor.Target>
+                      <uc:CvElementDescriptor CellExtraInfo="{x:Null}" DesignTimeArea="460, 96, 43, 13" ElementType="Text" Text="Credito" />
+                    </uc:CvDescriptor.Target>
+                  </uc:CvDescriptor>
+                </p:CvClickWithDescriptor.DesignTimeDescriptor>
+                <p:CvClickWithDescriptor.Target>
+                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="9c222873-5ff3-4458-82a7-c1f6d809ddd6">
+                    <ui:Target.TimeoutMS>
+                      <InArgument x:TypeArguments="x:Int32" />
+                    </ui:Target.TimeoutMS>
+                    <ui:Target.WaitForReady>
+                      <InArgument x:TypeArguments="ui:WaitForReady" />
+                    </ui:Target.WaitForReady>
+                  </ui:Target>
+                </p:CvClickWithDescriptor.Target>
+              </p:CvClickWithDescriptor>
+            </Sequence>
+            <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[dt_Processos]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="434,1236" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
               <ui:ForEachRow.Body>
                 <ActivityAction x:TypeArguments="sd:DataRow">
                   <ActivityAction.Argument>
                     <DelegateInArgument x:TypeArguments="sd:DataRow" Name="Row" />
                   </ActivityAction.Argument>
-                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="376,818" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="376,1122" sap2010:WorkflowViewState.IdRef="Sequence_6">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -542,7 +453,7 @@
                       </Assign.Value>
                     </Assign>
                     <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="334,91" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;Processo: &quot;+Grupo+&quot;/&quot;+Cota]" />
-                    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" sap2010:Annotation.AnnotationText="Send Warning and Documents" DisplayName="Invoke SendWarning workflow" sap:VirtualizedContainerService.HintSize="334,143" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_2" UnSafe="False" WorkflowFileName="SendWarning.xaml">
+                    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" sap2010:Annotation.AnnotationText="Send Warning and Documents" DisplayName="Invoke SendWarning workflow" sap:VirtualizedContainerService.HintSize="334,143" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_2" UnSafe="False" WorkflowFileName="Body\SendWarning.xaml">
                       <ui:InvokeWorkflowFile.Arguments>
                         <InOutArgument x:TypeArguments="x:String" x:Key="Grupo">[Grupo]</InOutArgument>
                         <InOutArgument x:TypeArguments="x:String" x:Key="Cota">[Cota]</InOutArgument>
@@ -554,10 +465,30 @@
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                     </ui:InvokeWorkflowFile>
-                    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke Desalienar workflow" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_3" UnSafe="False" WorkflowFileName="Desalienar.xaml">
+                    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke Desalienar workflow" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_3" UnSafe="False" WorkflowFileName="Body\Desalienar.xaml">
                       <ui:InvokeWorkflowFile.Arguments>
                         <InOutArgument x:TypeArguments="x:String" x:Key="Cota">[Cota]</InOutArgument>
                         <InOutArgument x:TypeArguments="x:String" x:Key="Grupo">[Grupo]</InOutArgument>
+                      </ui:InvokeWorkflowFile.Arguments>
+                    </ui:InvokeWorkflowFile>
+                    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke GetCoop workflow" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_4" UnSafe="False" WorkflowFileName="Body\GetCoop.xaml">
+                      <ui:InvokeWorkflowFile.Arguments>
+                        <InOutArgument x:TypeArguments="x:String" x:Key="Grupo">
+                          <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="Grupo" />
+                        </InOutArgument>
+                        <InOutArgument x:TypeArguments="x:String" x:Key="Cota">
+                          <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="Cota" />
+                        </InOutArgument>
+                      </ui:InvokeWorkflowFile.Arguments>
+                    </ui:InvokeWorkflowFile>
+                    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke Relatorio workflow" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_5" UnSafe="False" WorkflowFileName="Body\Relatorio.xaml">
+                      <ui:InvokeWorkflowFile.Arguments>
+                        <InOutArgument x:TypeArguments="x:String" x:Key="Cota">
+                          <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="Cota" />
+                        </InOutArgument>
+                        <InOutArgument x:TypeArguments="x:String" x:Key="Grupo">
+                          <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="Grupo" />
+                        </InOutArgument>
                       </ui:InvokeWorkflowFile.Arguments>
                     </ui:InvokeWorkflowFile>
                   </Sequence>
@@ -573,7 +504,7 @@
       <p:CVScope.DesignTimeCacheContainer>
         <uc:CvCacheContainer>
           <uc:CvCacheContainer.Caches>
-            <scg:List x:TypeArguments="uc:CVCache" Capacity="14">
+            <scg:List x:TypeArguments="uc:CVCache" Capacity="7">
               <uc:CVCache DisplayName="2" Id="bb47b82e-8dc2-4051-840c-f1aaa5662895" InformativeScreenshot="4a2e1b67e8f0bf420dba365a55a9a122" LogicalPosition="0, 0" OcrText="Intranet Newcon X + wts2ncpcons001p.sicredi.net - X _ X https://consorcio.sicredi.com.br/CONAT/frmConAtSrcConsorciado.aspx + ... R Sicredi Pagina Inicial Venda Grupo Cobranca Contemplacao Credito Encerramento Sistema Atendimento Atendimento a Clientes Identificar Consorciado Voltag Operacoes Identificacao do Consorciado Posicao do Consorciado Grupo Cota Amortizacao FGTS Bloqueio de Contempla... Consorciado: 000000 0000 00 Consulta de Garantido... Consulta Remessas Busca avancada... Localizar Cancelar Consulta Valores a De... Correspondencias Cotas do Cliente Informe a cota. Dados cadastrais Debito em Conta Demonstrativo do Grupo Documentos Digitaliza.. Emissao de Cobranca Hist do Tipo de Cota Historico de Transfer... Impressos Imprimir Extrato Informar Votacao AGE Negociacao Oferta de Lance D 4) Outras Cobrancas POR Pagamentos Realizados PTB2 Perc. Cobrar Contempl... Plano de Cobranca 12:19 Resultado de Assemble... 28/06/2022" Position="0, 0" ScreenshotGuid="cc5c6b74-1935-4d74-bfc0-248508acdd91" ServerVersion="1">
                 <uc:CVCache.CvAnchorRelations>
                   <scg:List x:TypeArguments="uc:AnchorRelationInfo" Capacity="4">
@@ -1334,7 +1265,7 @@
                   </scg:List>
                 </uc:CVCache.OcrTexts>
               </uc:CVCache>
-              <uc:CVCache DisplayName="Screen CV Type Into - 'Senha'" Id="f2b7f8e4-37ac-489f-85c8-d09e0a7630cc" InformativeScreenshot="17c595714679668e4ab194ac6e876162" LogicalPosition="0, 0" OcrText="Controle de Acesso - OAuth2 X Construir juntos Insira suas credenciais uma sociedade andrade_cicero mais prospera Senha e nossO proposito. Lembrar meu usuario Entrar R Sicredi a) POR PTB2 13:27 01/07/2022" Position="0, 0" ScreenshotGuid="5ab94e4b-1031-4577-a092-645ecc57d55a" ServerVersion="1">
+              <uc:CVCache DisplayName="Screen CV Type Into - 'Senha'" Id="f2b7f8e4-37ac-489f-85c8-d09e0a7630cc" InformativeScreenshot="17c595714679668e4ab194ac6e876162" LogicalPosition="-1440, 0" OcrText="Controle de Acesso - OAuth2 X Construir juntos Insira suas credenciais uma sociedade andrade_cicero mais prospera Senha e nossO proposito. Lembrar meu usuario Entrar R Sicredi a) POR PTB2 13:27 01/07/2022" Position="-1440, 0" ScreenshotGuid="5ab94e4b-1031-4577-a092-645ecc57d55a" ServerVersion="1">
                 <uc:CVCache.CvAnchorRelations>
                   <scg:List x:TypeArguments="uc:AnchorRelationInfo" Capacity="4">
                     <uc:AnchorRelationInfo Target="11">
