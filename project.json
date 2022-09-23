@@ -1,7 +1,7 @@
 {
   "name": "Aut_TermoLiberacaoImoveis",
   "description": "Blank Process",
-  "main": "Main.xaml",
+  "main": "Body\\GetProcess.xaml",
   "dependencies": {
     "Outlook.Mail.Activities": "[1.0.2]",
     "OutlookActivities": "[1.1.1]",
@@ -48,8 +48,8 @@
   "expressionLanguage": "VisualBasic",
   "entryPoints": [
     {
-      "filePath": "Main.xaml",
-      "uniqueId": "777a1654-139a-43b3-99af-6d5edbfbfefc",
+      "filePath": "Body\\GetProcess.xaml",
+      "uniqueId": "ace022b1-dfab-42fc-bd6a-bebb1324e66a",
       "input": [],
       "output": []
     }

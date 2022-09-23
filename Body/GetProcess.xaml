@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="test1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:p="http://schemas.uipath.com/workflow/activities/cv" xmlns:p1="http://schemas.uipath.com/workflow/activities/ocr" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing" xmlns:sd1="clr-namespace:System.Data;assembly=System.Data" xmlns:this="clr-namespace:" xmlns:uc="clr-namespace:UiPath.CV;assembly=UiPath.CV" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="test1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:p="http://schemas.uipath.com/workflow/activities/cv" xmlns:p1="http://schemas.uipath.com/workflow/activities/ocr" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing" xmlns:this="clr-namespace:" xmlns:uc="clr-namespace:UiPath.CV;assembly=UiPath.CV" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <x:Members>
     <x:Property Name="Grupo" Type="InOutArgument(x:String)" />
     <x:Property Name="Cota" Type="InOutArgument(x:String)" />
@@ -11,7 +11,7 @@
   <this:test1.PontoVenda>
     <InArgument x:TypeArguments="x:String" />
   </this:test1.PontoVenda>
-  <sap:VirtualizedContainerService.HintSize>654,4107</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>650,4107</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="38">
@@ -97,6 +97,7 @@
       <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
       <AssemblyReference>UiPath.Excel</AssemblyReference>
       <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
   <Sequence sap2010:Annotation.AnnotationText="processo realizado pela wts" sap:VirtualizedContainerService.HintSize="510,4042" sap2010:WorkflowViewState.IdRef="Sequence_2">
@@ -114,7 +115,7 @@
           </ActivityAction.Argument>
           <Sequence DisplayName="Do" sap2010:WorkflowViewState.IdRef="Sequence_4">
             <Sequence.Variables>
-              <Variable x:TypeArguments="sd1:DataTable" Name="dt_Processos" />
+              <Variable x:TypeArguments="sd:DataTable" Name="dt_Processos" />
             </Sequence.Variables>
             <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="434,91" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Trace" Message="[&quot;Adquirindo Cotas&quot;]" />
             <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: Icon (1320,133,29,25)&quot;]" DesignTimeCacheId="bb47b82e-8dc2-4051-840c-f1aaa5662895" DesignTimeScaleFactor="1" DisplayName="CV Click - Icon" sap:VirtualizedContainerService.HintSize="434,136" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_9" InformativeScreenshot="de4f0592d580362941f47b30c5b2277a" KeyModifiers="None" MouseButton="BTN_LEFT" Version="V5">
@@ -146,7 +147,7 @@
                 </ui:Target>
               </p:CvClickWithDescriptor.Target>
             </p:CvClickWithDescriptor>
-            <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: Text 'lote' (169,348,22,12)&quot; +&#xD;&#xA;&quot;Anchor: Text '3.Documentc' (169,324,69,12)&quot;]" DesignTimeCacheId="f14a2d37-240f-4250-8cbd-81f755ec2bf9" DesignTimeScaleFactor="1" DisplayName="CV Click - Text" sap:VirtualizedContainerService.HintSize="434,136" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_13" InformativeScreenshot="7db25e34afc1d57ef8c8b1bd0cc2e5fa" KeyModifiers="None" MouseButton="BTN_LEFT" Version="V5">
+            <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: Text 'lote' (169,348,22,12)&quot; +&#xA;&quot;Anchor: Text '3.Documentc' (169,324,69,12)&quot;]" DesignTimeCacheId="f14a2d37-240f-4250-8cbd-81f755ec2bf9" DesignTimeScaleFactor="1" DisplayName="CV Click - Text" sap:VirtualizedContainerService.HintSize="434,136" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_13" InformativeScreenshot="7db25e34afc1d57ef8c8b1bd0cc2e5fa" KeyModifiers="None" MouseButton="BTN_LEFT" Version="V5">
               <p:CvClickWithDescriptor.CursorPosition>
                 <ui:CursorPosition Position="Center">
                   <ui:CursorPosition.OffsetX>
@@ -260,7 +261,11 @@
             </p:CvClickWithDescriptor>
             <Sequence sap2010:Annotation.AnnotationText="Open Newcon" sap:VirtualizedContainerService.HintSize="434,1318" sap2010:WorkflowViewState.IdRef="Sequence_7">
               <Sequence.Variables>
-                <Variable x:TypeArguments="uc:CvString" Default="[&quot;Ci15ro04an99&amp;&quot;]" Name="Password" />
+                <Variable x:TypeArguments="uc:CvString" Name="Password">
+                  <Variable.Default>
+                    <mva:VisualBasicValue x:TypeArguments="uc:CvString" ExpressionText="&quot;Ci15ro04an99%&quot;" />
+                  </Variable.Default>
+                </Variable>
               </Sequence.Variables>
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -457,9 +462,9 @@
             </Sequence>
             <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[dt_Processos]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="434,1236" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
               <ui:ForEachRow.Body>
-                <ActivityAction x:TypeArguments="sd1:DataRow">
+                <ActivityAction x:TypeArguments="sd:DataRow">
                   <ActivityAction.Argument>
-                    <DelegateInArgument x:TypeArguments="sd1:DataRow" Name="Row" />
+                    <DelegateInArgument x:TypeArguments="sd:DataRow" Name="Row" />
                   </ActivityAction.Argument>
                   <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="376,1122" sap2010:WorkflowViewState.IdRef="Sequence_6">
                     <sap:WorkflowViewStateService.ViewState>
@@ -543,7 +548,7 @@
       <p:CVScope.DesignTimeCacheContainer>
         <uc:CvCacheContainer>
           <uc:CvCacheContainer.Caches>
-            <scg:List x:TypeArguments="uc:CVCache" Capacity="16">
+            <scg:List x:TypeArguments="uc:CVCache" Capacity="8">
               <uc:CVCache DisplayName="2" Id="bb47b82e-8dc2-4051-840c-f1aaa5662895" InformativeScreenshot="4a2e1b67e8f0bf420dba365a55a9a122" LogicalPosition="0, 0" OcrText="Intranet Newcon X + wts2ncpcons001p.sicredi.net - X _ X https://consorcio.sicredi.com.br/CONAT/frmConAtSrcConsorciado.aspx + ... R Sicredi Pagina Inicial Venda Grupo Cobranca Contemplacao Credito Encerramento Sistema Atendimento Atendimento a Clientes Identificar Consorciado Voltag Operacoes Identificacao do Consorciado Posicao do Consorciado Grupo Cota Amortizacao FGTS Bloqueio de Contempla... Consorciado: 000000 0000 00 Consulta de Garantido... Consulta Remessas Busca avancada... Localizar Cancelar Consulta Valores a De... Correspondencias Cotas do Cliente Informe a cota. Dados cadastrais Debito em Conta Demonstrativo do Grupo Documentos Digitaliza.. Emissao de Cobranca Hist do Tipo de Cota Historico de Transfer... Impressos Imprimir Extrato Informar Votacao AGE Negociacao Oferta de Lance D 4) Outras Cobrancas POR Pagamentos Realizados PTB2 Perc. Cobrar Contempl... Plano de Cobranca 12:19 Resultado de Assemble... 28/06/2022" Position="0, 0" ScreenshotGuid="cc5c6b74-1935-4d74-bfc0-248508acdd91" ServerVersion="1">
                 <uc:CVCache.CvAnchorRelations>
                   <scg:List x:TypeArguments="uc:AnchorRelationInfo" Capacity="4">
@@ -2656,9 +2661,9 @@
         </uc:CvCacheContainer>
       </p:CVScope.DesignTimeCacheContainer>
       <p:CVScope.OCREngine>
-        <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd:Rectangle, x:String))">
+        <ActivityFunc x:TypeArguments="sd1:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
           <ActivityFunc.Argument>
-            <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+            <DelegateInArgument x:TypeArguments="sd1:Image" Name="Image" />
           </ActivityFunc.Argument>
           <p1:UiPathScreenOCR ApiKey="{x:Null}" Endpoint="{x:Null}" Output="{x:Null}" Text="{x:Null}" UseLocalServer="{x:Null}" ComputeSkewAngle="False" ExtractWords="True" sap:VirtualizedContainerService.HintSize="200,22" sap2010:WorkflowViewState.IdRef="UiPathScreenOCR_2" Image="[Image]" Language="en" Profile="Screen" Scale="1" Timeout="100000" />
         </ActivityFunc>

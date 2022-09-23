@@ -7,7 +7,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>654,627</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1208,827</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>SendEmail_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="68">
@@ -114,7 +114,7 @@
         </umabh:HtmlContentArgument>
       </umab:CreateHtmlContent.HtmlContentArg>
     </umab:CreateHtmlContent>
-    <ui:SendOutlookMail Bcc="{x:Null}" Cc="{x:Null}" MailMessage="{x:Null}" ReplyTo="{x:Null}" TimeoutMS="{x:Null}" Account="andrade_cicero@terceiros.sicredi.com.br" Body="[Body]" DisplayName="Send Outlook Mail Message" sap:VirtualizedContainerService.HintSize="434,148" sap2010:WorkflowViewState.IdRef="SendOutlookMail_1" Importance="Normal" IsBodyHtml="True" IsDraft="False" Sensitivity="Normal" SentOnBehalfOfName="ocorrencias_formalistica@sicredi.com.br" Subject="Aviso Documentação para a Liberação da Alienação Fiduciaria" To="[ContatoCoop]">
+    <ui:SendOutlookMail Bcc="{x:Null}" Cc="{x:Null}" MailMessage="{x:Null}" ReplyTo="{x:Null}" TimeoutMS="{x:Null}" Account="andrade_cicero@sicredi.com.br" Body="[Body]" DisplayName="Send Outlook Mail Message" sap:VirtualizedContainerService.HintSize="434,148" sap2010:WorkflowViewState.IdRef="SendOutlookMail_1" Importance="Normal" IsBodyHtml="True" IsDraft="False" Sensitivity="Normal" SentOnBehalfOfName="ocorrencias_formalistica@sicredi.com.br" Subject="Aviso Documentação para a Liberação da Alienação Fiduciaria" To="[ContatoCoop]">
       <ui:SendOutlookMail.Files>
         <scg:List x:TypeArguments="InArgument(x:String)" Capacity="0" />
       </ui:SendOutlookMail.Files>
