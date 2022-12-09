@@ -5,9 +5,9 @@
   "dependencies": {
     "Outlook.Mail.Activities": "[1.0.2]",
     "OutlookActivities": "[1.1.1]",
-    "UiPath.Excel.Activities": "[2.12.3]",
-    "UiPath.Mail.Activities": "[1.15.2]",
-    "UiPath.System.Activities": "[22.4.1]",
+    "UiPath.Excel.Activities": "[2.16.0]",
+    "UiPath.Mail.Activities": "[1.18.1]",
+    "UiPath.System.Activities": "[22.10.3]",
     "UiPath.UIAutomation.Activities": "[22.4.5]",
     "UiPath.VMware.Activities": "[1.1.8]"
   },
@@ -30,7 +30,8 @@
     "executionType": "Workflow",
     "readyForPiP": false,
     "startsInPiP": false,
-    "mustRestoreAllDependencies": true
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
   },
   "designOptions": {
     "projectProfile": "Developement",
